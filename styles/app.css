@@ -1,9 +1,36 @@
-.container {
-  background-color: red;
+.font-heading {
+  font-size: 64px;
+  line-height: 91px;
 }
 
-.container-2 {
-  background-color: green;
+.font-heading-medium {
+  font-size: 55px;
+  line-height: 83.7px;
+}
+
+.font-heading-small {
+  font-size: 48px;
+  line-height: 71px;
+}
+
+.font-title-text {
+  font-size: 36px;
+  list-style: 62px;
+}
+
+.font-list-title {
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.font-body {
+  font-size: 20px;
+  line-height: 41.8px;
+}
+
+.font-body-small {
+  font-size: 18px;
+  line-height: 32px;
 }
 
 /*# sourceMappingURL=app.css.map */
