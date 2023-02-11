@@ -1,0 +1,72 @@
+.hero-section{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    
+    &-container{
+        width: 90%;
+        margin: 0 auto;
+        border-bottom: 0.5px solid #232323;
+
+        & .hero-title-container{
+            & .hero-title{
+                color: $--clr-black;
+                @extend .fw-600;
+                @extend .font-heading;
+                @extend .mb-4;
+            }
+    
+            & .hero-title-text{
+                color: #444444;
+                @extend .fw-300;
+                @extend .font-list-title;
+            }
+        }
+
+        & .get-started-btn{
+            background-color: #232323;
+            color: $--clr-white;
+            font-size: 20px;
+            @extend .rounded-pill;
+
+            & .btn-text{
+                padding: 0 2.5rem;
+            }
+
+            & .arrow-span{
+                background-color: $--clr-white;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                vertical-align: middle;
+
+                & i{
+                    color: $--clr-black;
+                }
+            }
+        }
+
+        & .intro-container{
+            text-align: center;
+            padding: 64px 0;
+
+            & .intro-title{
+                color: #444444;
+                letter-spacing: 0.45em;
+
+                @extend .font-body;
+                @extend .fw-500;
+            }
+
+            & .intro-text{
+                color: #000000;
+
+                @extend .font-title-text;
+            }
+        }
+    }
+}

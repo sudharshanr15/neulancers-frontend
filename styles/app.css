@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* Core utilities */
 /* Font size and line heights */
-.font-heading {
+.font-heading, .hero-section-container .hero-title-container .hero-title {
   font-size: 64px;
   line-height: 91px;
 }
@@ -17,17 +17,17 @@
   line-height: 71px;
 }
 
-.font-title-text {
+.font-title-text, .hero-section-container .intro-container .intro-text {
   font-size: 36px;
   list-style: 62px;
 }
 
-.font-list-title {
+.font-list-title, .hero-section-container .hero-title-container .hero-title-text {
   font-size: 25px;
   line-height: 38px;
 }
 
-.font-body {
+.font-body, .hero-section-container .intro-container .intro-title {
   font-size: 20px;
   line-height: 41.8px;
 }
@@ -46,7 +46,7 @@
   font-weight: 200;
 }
 
-.fw-300 {
+.fw-300, .hero-section-container .hero-title-container .hero-title-text {
   font-weight: 300;
 }
 
@@ -54,11 +54,11 @@
   font-weight: 400;
 }
 
-.fw-500 {
+.fw-500, .hero-section-container .intro-container .intro-title {
   font-weight: 500;
 }
 
-.fw-600 {
+.fw-600, .hero-section-container .hero-title-container .hero-title {
   font-weight: 600;
 }
 
@@ -7708,7 +7708,7 @@ textarea.form-control-lg {
   margin-bottom: 1rem !important;
 }
 
-.mb-4 {
+.mb-4, .hero-section-container .hero-title-container .hero-title {
   margin-bottom: 1.5rem !important;
 }
 
@@ -8306,7 +8306,7 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
-.rounded-pill, .navbar-contact-btn {
+.rounded-pill, .hero-section-container .get-started-btn, .navbar-contact-btn {
   border-radius: var(--bs-border-radius-pill) !important;
 }
 
@@ -10885,6 +10885,56 @@ textarea.form-control-lg {
   font-weight: 500 !important;
   font-size: 20px;
   padding-inline: 1.7rem;
+}
+
+.hero-section {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.hero-section-container {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 0.5px solid #232323;
+}
+.hero-section-container .hero-title-container .hero-title {
+  color: #000000;
+}
+.hero-section-container .hero-title-container .hero-title-text {
+  color: #444444;
+}
+.hero-section-container .get-started-btn {
+  background-color: #232323;
+  color: #ffffff;
+  font-size: 20px;
+}
+.hero-section-container .get-started-btn .btn-text {
+  padding: 0 2.5rem;
+}
+.hero-section-container .get-started-btn .arrow-span {
+  background-color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.hero-section-container .get-started-btn .arrow-span i {
+  color: #000000;
+}
+.hero-section-container .intro-container {
+  text-align: center;
+  padding: 64px 0;
+}
+.hero-section-container .intro-container .intro-title {
+  color: #444444;
+  letter-spacing: 0.45em;
+}
+.hero-section-container .intro-container .intro-text {
+  color: #000000;
 }
 
 /*# sourceMappingURL=app.css.map */
