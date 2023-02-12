@@ -12,7 +12,7 @@
   line-height: 83.7px;
 }
 
-.font-heading-small {
+.font-heading-small, .about-us-section-container .about-us-content-container .about-us-title-text {
   font-size: 48px;
   line-height: 71px;
 }
@@ -22,12 +22,12 @@
   list-style: 62px;
 }
 
-.font-list-title, .hero-section-container .hero-title-container .hero-title-text {
+.font-list-title, .about-us-section-container .about-us-content-container .about-us-title, .hero-section-container .hero-title-container .hero-title-text {
   font-size: 25px;
   line-height: 38px;
 }
 
-.font-body, .hero-section-container .intro-container .intro-title {
+.font-body, .about-us-section-container .about-us-content-container .contact-us-link, .about-us-section-container .about-us-content-container .about-us-desc, .hero-section-container .intro-container .intro-title {
   font-size: 20px;
   line-height: 41.8px;
 }
@@ -54,11 +54,11 @@
   font-weight: 400;
 }
 
-.fw-500, .hero-section-container .intro-container .intro-title {
+.fw-500, .about-us-section-container .about-us-content-container .about-us-title-text, .hero-section-container .intro-container .intro-title {
   font-weight: 500;
 }
 
-.fw-600, .hero-section-container .hero-title-container .hero-title {
+.fw-600, .about-us-section-container .about-us-content-container .contact-us-link, .about-us-section-container .about-us-content-container .about-us-title, .hero-section-container .hero-title-container .hero-title {
   font-weight: 600;
 }
 
@@ -10935,6 +10935,20 @@ textarea.form-control-lg {
 }
 .hero-section-container .intro-container .intro-text {
   color: #000000;
+}
+
+.about-us-section {
+  margin-top: 100px;
+}
+.about-us-section-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.about-us-section-container .about-us-content-container .about-us-title {
+  color: rgba(35, 35, 35, 0.6);
+}
+.about-us-section-container .about-us-content-container .contact-us-link {
+  color: #232323;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -70,3 +70,35 @@
         }
     }
 }
+
+.about-us-section{
+    margin-top: 100px;
+    
+    &-container{
+        width: 90%;
+        margin: 0 auto;
+
+        & .about-us-content-container{
+            & .about-us-title{
+                color: rgba(35, 35, 35, 0.6);
+                @extend .fw-600;
+                @extend .font-list-title;
+            }
+
+            & .about-us-title-text{
+                @extend .font-heading-small;
+                @extend .fw-500;
+            }
+
+            & .about-us-desc{
+                @extend .font-body;
+            }
+
+            & .contact-us-link{
+                color: #232323;
+                @extend .fw-600;
+                @extend .font-body;
+            }
+        }
+    }
+}
