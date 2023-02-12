@@ -7,7 +7,7 @@
   line-height: 91px;
 }
 
-.font-heading-medium {
+.font-heading-medium, .our-expertise-section-container .our-expertise-title .first {
   font-size: 55px;
   line-height: 83.7px;
 }
@@ -22,7 +22,7 @@
   list-style: 62px;
 }
 
-.font-list-title, .about-us-section-container .about-us-content-container .about-us-title, .hero-section-container .hero-title-container .hero-title-text {
+.font-list-title, .our-expertise-section-container .expertise-list .expertise-item .card-title, .about-us-section-container .about-us-content-container .about-us-title, .hero-section-container .hero-title-container .hero-title-text {
   font-size: 25px;
   line-height: 38px;
 }
@@ -32,7 +32,7 @@
   line-height: 41.8px;
 }
 
-.font-body-small {
+.font-body-small, .our-expertise-section-container .expertise-list .expertise-item .card-text {
   font-size: 18px;
   line-height: 32px;
 }
@@ -54,7 +54,7 @@
   font-weight: 400;
 }
 
-.fw-500, .about-us-section-container .about-us-content-container .about-us-title-text, .hero-section-container .intro-container .intro-title {
+.fw-500, .our-expertise-section-container .expertise-list .expertise-item .card-title, .about-us-section-container .about-us-content-container .about-us-title-text, .hero-section-container .intro-container .intro-title {
   font-weight: 500;
 }
 
@@ -7089,7 +7089,7 @@ textarea.form-control-lg {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
-.shadow-lg {
+.shadow-lg, .our-expertise-section-container .expertise-list .expertise-item {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
@@ -10949,6 +10949,46 @@ textarea.form-control-lg {
 }
 .about-us-section-container .about-us-content-container .contact-us-link {
   color: #232323;
+}
+
+.our-expertise-section {
+  margin-top: 100px;
+}
+.our-expertise-section-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.our-expertise-section-container .our-expertise-title {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: end;
+}
+.our-expertise-section-container .our-expertise-title .first {
+  text-transform: uppercase;
+  color: rgba(35, 35, 35, 0.5);
+  margin-bottom: 6rem;
+}
+.our-expertise-section-container .our-expertise-title .second {
+  display: block;
+  text-transform: uppercase;
+  color: rgba(145, 132, 157, 0.38);
+  font-size: 10rem;
+}
+.our-expertise-section-container .expertise-list .expertise-item {
+  border: none;
+  width: 60%;
+  max-width: 400px;
+  margin-bottom: 68px;
+}
+.our-expertise-section-container .expertise-list .expertise-item .card-title {
+  color: #232323;
+}
+.our-expertise-section-container .expertise-list .expertise-item .card-text {
+  color: #444444;
+  letter-spacing: 0.05em;
+}
+.our-expertise-section-container .expertise-list .expertise-item:nth-child(even) {
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=app.css.map */

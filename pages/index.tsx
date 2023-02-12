@@ -41,6 +41,37 @@ export default function Home(){
           </div>
         </div>
       </section>
+      <section className="our-expertise-section">
+        <div className="our-expertise-section-container">
+          <div className="row">
+            <div className="col-5">
+              <h2 className="our-expertise-title"><span className="first">OUR</span><span className="second">EXPERTISE</span></h2>
+            </div>
+            <div className="col-7">
+              <div className="expertise-list">
+                <div className="card expertise-item">
+                  <div className="card-body">
+                    <div className="card-title">Technology Consulting</div>
+                    <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam fugiat labore, aut repellat explicabo itaque corporis facere commodi aliquam!</div>
+                  </div>
+                </div>
+                <div className="card expertise-item">
+                  <div className="card-body">
+                    <div className="card-title">App Development</div>
+                    <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam fugiat labore, aut repellat explicabo itaque corporis facere commodi aliquam!</div>
+                  </div>
+                </div>
+                <div className="card expertise-item">
+                  <div className="card-body">
+                    <div className="card-title">Research and development</div>
+                    <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam fugiat labore, aut repellat explicabo itaque corporis facere commodi aliquam!</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
