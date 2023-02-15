@@ -7,7 +7,7 @@
   line-height: 91px;
 }
 
-.font-heading-medium, .our-expertise-section-container .our-expertise-title .first {
+.font-heading-medium, .specialization-section .specialization-section-container .specialization-title, .our-expertise-section-container .our-expertise-title .first {
   font-size: 55px;
   line-height: 83.7px;
 }
@@ -22,7 +22,7 @@
   list-style: 62px;
 }
 
-.font-list-title, .our-expertise-section-container .expertise-list .expertise-item .card-title, .about-us-section-container .about-us-content-container .about-us-title, .hero-section-container .hero-title-container .hero-title-text {
+.font-list-title, .specialization-section .specialization-section-container .specialization-list .specialization-item-container .card-title, .our-expertise-section-container .expertise-list .expertise-item .card-title, .about-us-section-container .about-us-content-container .about-us-title, .hero-section-container .hero-title-container .hero-title-text {
   font-size: 25px;
   line-height: 38px;
 }
@@ -32,7 +32,7 @@
   line-height: 41.8px;
 }
 
-.font-body-small, .our-expertise-section-container .expertise-list .expertise-item .card-text {
+.font-body-small, .specialization-section .specialization-section-container .specialization-list .specialization-item-container .card-text, .our-expertise-section-container .expertise-list .expertise-item .card-text {
   font-size: 18px;
   line-height: 32px;
 }
@@ -50,15 +50,15 @@
   font-weight: 300;
 }
 
-.fw-400 {
+.fw-400, .specialization-section .specialization-section-container .specialization-title .first {
   font-weight: 400;
 }
 
-.fw-500, .our-expertise-section-container .expertise-list .expertise-item .card-title, .about-us-section-container .about-us-content-container .about-us-title-text, .hero-section-container .intro-container .intro-title {
+.fw-500, .specialization-section .specialization-section-container .specialization-list .specialization-item-container .card-title, .our-expertise-section-container .expertise-list .expertise-item .card-title, .about-us-section-container .about-us-content-container .about-us-title-text, .hero-section-container .intro-container .intro-title {
   font-weight: 500;
 }
 
-.fw-600, .about-us-section-container .about-us-content-container .contact-us-link, .about-us-section-container .about-us-content-container .about-us-title, .hero-section-container .hero-title-container .hero-title {
+.fw-600, .specialization-section .specialization-section-container .specialization-title .second, .about-us-section-container .about-us-content-container .contact-us-link, .about-us-section-container .about-us-content-container .about-us-title, .hero-section-container .hero-title-container .hero-title {
   font-weight: 600;
 }
 
@@ -7089,7 +7089,7 @@ textarea.form-control-lg {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
-.shadow-lg, .our-expertise-section-container .expertise-list .expertise-item {
+.shadow-lg, .specialization-section .specialization-section-container .specialization-list .specialization-item-container, .our-expertise-section-container .expertise-list .expertise-item {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
@@ -10989,6 +10989,53 @@ textarea.form-control-lg {
 }
 .our-expertise-section-container .expertise-list .expertise-item:nth-child(even) {
   margin-left: auto;
+}
+
+.specialization-section {
+  margin-top: 100px;
+}
+.specialization-section .specialization-section-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.specialization-section .specialization-section-container .specialization-title {
+  letter-spacing: 0.05em;
+}
+.specialization-section .specialization-section-container .specialization-title .first {
+  display: block;
+}
+.specialization-section .specialization-section-container .specialization-title .second {
+  display: block;
+}
+.specialization-section .specialization-section-container .specialization-list {
+  margin-top: 68px;
+}
+.specialization-section .specialization-section-container .specialization-list .specialization-item {
+  padding-inline: 1rem;
+}
+.specialization-section .specialization-section-container .specialization-list .specialization-item-container {
+  background-color: black;
+  border-radius: 0.5rem;
+  display: flex;
+}
+.specialization-section .specialization-section-container .specialization-list .specialization-item-container .card {
+  margin-top: 10px;
+  border: none;
+  border-radius: 0.5rem;
+  padding-inline: 0.7rem;
+}
+.specialization-section .specialization-section-container .specialization-list .specialization-item-container .card-title {
+  letter-spacing: 0.05em;
+}
+.specialization-section .specialization-section-container .specialization-list .specialization-item-container .card-text {
+  color: #444444;
+  letter-spacing: 0.05em;
+}
+.specialization-section .specialization-section-container .specialization-list .specialization-item__second {
+  margin-top: 100px;
+}
+.specialization-section .specialization-section-container .specialization-list .specialization-item__third {
+  margin-top: -40px;
 }
 
 /*# sourceMappingURL=app.css.map */

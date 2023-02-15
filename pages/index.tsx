@@ -72,6 +72,59 @@ export default function Home(){
           </div>
         </div>
       </section>
+      <section className="specialization-section">
+        <div className="specialization-section-container">
+          <h2 className="specialization-title">
+            <span className="first">Our other</span>
+            <span className="second">Specialization</span>
+          </h2>
+          <div className="row specialization-list">
+            <div className="col-4 specialization-item specialization-item__first">
+               <div className="specialization-item-container">
+                <div className="card">
+                  <div className="card-body">
+                    <div className="card-title">
+                      Internet of Things
+                    </div>
+                    <div className="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aliquid doloremque hic quaerat eos natus, a ratione fuga velit quas!
+                    </div>
+                  </div>
+                </div>
+               </div>
+            </div>
+            <div className="col-4 specialization-item specialization-item__second">
+               <div className="specialization-item-container">
+                <div className="card">
+                  <div className="card-body">
+                    <div className="card-title">
+                      Internet of Things
+                    </div>
+                    <div className="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aliquid doloremque hic quaerat eos natus, a ratione fuga velit quas!
+                    </div>
+                  </div>
+                </div>
+               </div>
+            </div>
+            <div className="col-4 specialization-item specialization-item__third">
+               <div className="specialization-item-container">
+                <div className="card">
+                  <div className="card-body">
+                    <div className="card-title">
+                      Internet of Things
+                    </div>
+                    <div className="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aliquid doloremque hic quaerat eos natus, a ratione fuga velit quas!
+                    </div>
+                  </div>
+                </div>
+               </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
     </>
   )
 }

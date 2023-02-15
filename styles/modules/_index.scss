@@ -156,3 +156,68 @@
         }
     }
 }
+
+.specialization-section{
+    margin-top: 100px;
+
+    & .specialization-section-container{
+        width: 90%;
+        margin: 0 auto;
+
+        & .specialization-title{
+            letter-spacing: 0.05em;
+            @extend .font-heading-medium;
+
+            & .first{
+                display: block;
+                @extend .fw-400;
+            }
+
+            & .second{
+                display: block;
+                @extend .fw-600;
+            }
+        }
+
+        & .specialization-list{
+            margin-top: 68px;
+            & .specialization-item{
+                padding-inline: 1rem;
+
+                &-container{
+                    background-color: black;
+                    border-radius: 0.5rem;
+                    display: flex;
+                    @extend .shadow-lg;
+                    
+                    & .card{
+                        margin-top: 10px;
+                        border: none;
+                        border-radius: 0.5rem;
+                        padding-inline: 0.7rem;
+                    }
+    
+                    & .card-title{
+                        letter-spacing: 0.05em;
+                        @extend .fw-500;
+                        @extend .font-list-title;
+                    }
+    
+                    & .card-text{
+                        color: #444444;
+                        letter-spacing: 0.05em;
+                        @extend .font-body-small;
+                    }
+                }
+
+                &__second{
+                    margin-top: 100px;
+                }
+
+                &__third{
+                    margin-top: -40px;
+                }
+            }
+        }
+    }
+}
