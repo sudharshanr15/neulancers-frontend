@@ -125,6 +125,11 @@ export default function Home(){
           </div>
         </div>
       </section>
+      <section className="disparate-section">
+        <div className="disparate-section-container">
+          <h1>sdf</h1>
+        </div>
+      </section>
     </>
   )
 }

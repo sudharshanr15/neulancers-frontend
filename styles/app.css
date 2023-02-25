@@ -11038,4 +11038,13 @@ textarea.form-control-lg {
   margin-top: -40px;
 }
 
+.disparate-section {
+  margin-top: 100px;
+  background-color: #f7f7f7;
+}
+.disparate-section-container {
+  width: 90%;
+  margin: 80px auto;
+}
+
 /*# sourceMappingURL=app.css.map */
