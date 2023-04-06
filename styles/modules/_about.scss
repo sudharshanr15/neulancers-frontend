@@ -1,0 +1,436 @@
+.about-company-hero{
+    .about-company-wrapper{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem;
+        border-radius: 8px;
+        overflow: hidden;
+
+        @include lg{
+            padding: 1.6rem;
+        }
+
+        .about-company-header{
+            color: white;
+            background: $primary-dark;
+            margin: 0 auto;
+            width: max-content;
+            padding:.4rem 1rem;
+            text-transform: uppercase;
+        }
+        .about-company-text{
+            font-family: 'poppins';
+            margin-top: 1rem;
+            text-align: center;
+            color: white;
+
+            @include lg{
+                font-size: 54px;
+            }
+        }
+        .about-company-img-wrapper{
+            .about-company-img{
+                z-index: -1;
+                object-fit: cover;
+            }
+        }
+        .about-company-overlay{
+            position: absolute;
+            z-index: -1;
+            height: 100%;
+            width: 100%;
+            background: #4D177B7D;
+        }
+    }
+}
+
+.top-reasons{
+    .top-reasons-head{
+        text-align: center;
+
+        .top-reasons-tittle{
+            font-size: 1.8rem;
+            
+            @include lg{
+                font-size: 2.4rem;
+            }
+        }
+    }
+
+    .top-reasons-grp{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2rem;
+
+        @include lg{
+            border: 1px solid grey;
+            border-radius: 8px;
+            padding: 1rem;
+            justify-content: space-around;
+        }
+
+        .top-reasons-center-line{
+            border: .5px solid grey ;
+            height: 100px;
+            width: 1px;
+
+            @include lg{
+                height: 60px;
+            }
+        }
+
+        .top-reasons-item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            @include lg{
+                flex-direction: row;
+            }
+
+            .top-reasons-icon-wrapper{
+                position: relative;
+                height: 48px;
+                width: 48px;
+                margin: auto;
+                .top-reasons-icon{
+                    object-fit: contain;
+                }
+
+                @include lg{
+                    &::before{
+                        content: ' ';
+                        display: inline-block;
+                        background: #dfdddd;
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 50%;
+                        right: .6rem;
+                        bottom : .6rem;
+                        position: absolute;
+                    }
+                }
+            }
+            .top-reasons-text{
+                margin-top: .4rem;
+                font-weight: 600;
+                text-align: center;
+                width: 80%;
+
+                @include lg{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.help-msg-container{
+
+    .help-msg-head{
+        font-family: 'Source Sans Pro';
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 0 12%;
+
+        @include lg{
+            text-align: start;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60%;
+            height: 100%;
+            margin: auto;
+        }
+    }
+
+    .help-msg-item{
+        text-align: center;
+        margin-top: 1.4rem;
+
+        @include lg{
+            text-align: start;
+            display: flex;
+            justify-content: start;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-top: 5rem;
+        }
+
+        .cricle-span{
+            width: 24px;
+            height: 24px;
+            background: $primary-dark;
+            border-radius: 50%;
+            display: none;
+            @include lg{
+                display: block;
+            }
+        }
+
+        .help-msg{
+            @include lg{
+                width: 95%;
+                line-height: 1.8rem;
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+
+.our-coders-container{
+    .our-coders-img-grp{
+            display: flex;
+            justify-content: space-between;
+
+            @include lg{
+                justify-content: space-around;
+            }
+        .our-coders-img-col{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            @include lg{
+                gap: 0;
+            }
+
+            &:first-child{
+                margin-top: 2rem;
+
+                @include lg{
+                    margin-top: 5rem;
+                }
+            }
+
+            .our-coders-img-wrapper{
+                position: relative;
+                height: 110px;
+                width: 160px;
+                @include lg{
+                    height: 300px;
+                    width: 350px;
+                }
+                .our-coders-img{
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+    .our-coders-content-grp{
+        margin-top: 1.4rem;
+        .our-coders-title{
+            font-size: 1.6rem;
+            width: 80%;
+
+            @include lg{
+                font-size: 3rem;
+                width: 70%;
+            }
+        }
+            .our-coders-text-grp{
+                display: flex;
+                align-items: start;
+                justify-content: center;
+                gap: 1rem;
+                margin-top: 1.4rem;
+
+                .our-coders-check{
+                    color: #4D177B;
+                    font-size: 2rem;
+
+                    @include lg{
+                        font-size: 2.4rem;
+                    }
+                }
+
+                .our-coders-text{
+                    @include lg{
+                        line-height: 200%;
+                        font-size: 1.6rem;
+                        font-size: 'open sans';
+                    }
+                }
+            }
+    }
+}
+
+.our-team{
+    .our-team-header{
+        .our-team-tittle{
+            font-size: 1.6rem;
+            text-align: center;
+            @include lg{
+                font-size: 2rem;
+            }
+        }
+        .our-team-subtext{
+            text-align: center;
+        }
+    }
+
+    .our-team-grp{
+        margin-top: 1.4rem;
+        @include lg{
+            display: flex;
+            justify-content: space-around;
+        }
+        .our-team-item{
+            margin-top: 1.4rem;
+            .our-team-img-wrapper{
+                position: relative;
+                height: 200px;
+                width: 200px;
+                margin: auto;
+                @include lg{
+                    height: 300px;
+                    width: 300px;
+                }
+                .our-team-img{
+                    object-fit: contain;
+                }
+            }
+
+            .our-team-name{
+                margin-top: .8rem;
+                font-size: 1.4rem;
+                text-align: center;
+                font-weight: 500;
+            }
+            .our-team-role{
+                text-align: center;
+            }
+        }
+    }
+}
+
+.our-vision{
+    @include lg{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 1rem;
+    }
+    .our-vision-grp{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: .3rem;
+
+        @include lg{
+            justify-content: start;
+        }
+
+        .our-vision-img-wrapper{
+            position: relative;
+            height: 180px;
+            width: 80vw;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+
+            @include lg{
+                height: 350px;
+                width: 480px;
+            }
+
+            .our-vision-img{
+                object-fit: cover;
+            }
+        }
+        .our-vision-tittle{
+            color:  #D5D0DA;
+            font-size: 2rem;
+            font-weight: 500;
+            font-family: 'poppins';
+            rotate: -90deg;
+            width: 10%;
+            height: 10%;
+
+            @include lg{
+                font-size: 3rem;
+                width: 1px;
+                height: 1%;
+            }
+        }
+    }
+    .our-vision-text{
+        font-family: 'poppins';
+        font-weight: 500;
+        margin-top: 1rem;
+
+        @include lg{
+            margin-top: auto;
+            margin-bottom: 5%;
+            font-size: 2rem;
+        }
+    }
+}
+
+.our-mission{
+    .our-mission-grp{
+        display: grid;
+        grid-template: 1fr 100% / 15vw 1fr;
+
+        @include lg{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2.4rem;
+        }
+        
+        .our-mission-img-wrapper{
+            position: relative;
+            height: 180px;
+            width: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+            order: 2;
+
+            @include lg{
+                height: 350px;
+                width: 480px;
+                order: 3;
+                
+            }
+
+            .our-mission-img{
+                object-fit: cover;
+            }
+        }
+        .our-mission-tittle{
+            order: 1;
+            color:  #D5D0DA;
+            font-size: 2rem;
+            font-weight: 500;
+            font-family: 'poppins';
+            margin-top: auto;
+            margin-bottom: auto;
+            rotate: -90deg;
+
+            @include lg{
+                font-size: 3rem;
+            }
+        }
+        .our-mission-text{
+            order: 3;
+            grid-area: 2 / 1 / 3 / 3;
+            font-family: 'poppins';
+            font-weight: 500;
+            margin-top: 1rem;
+            @include lg{
+                order: 2;
+                font-size: 2rem;
+                margin-top: auto;
+                margin-bottom: 5%;
+                width: 35%;
+            }
+        }
+    }
+}

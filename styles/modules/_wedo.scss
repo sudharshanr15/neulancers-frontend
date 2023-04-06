@@ -1,0 +1,407 @@
+.wedo-hero{
+    &::before{
+        content: ' ';
+        display: inline-block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 40px 53.3px 35px;
+        border-color: transparent transparent #D9F4FF transparent;
+        transform: rotate(-10deg);
+        left: -10%;
+
+        @include lg{
+            border-width: 0 100px 113.3px 95px;
+            rotate: 5deg;
+            left: -5%;
+        }
+    }
+    .wedo-content{
+        .wedo-img-wrapper{
+            position: relative;
+            height: 300px;
+            margin: 0 1rem;
+            @include lg{
+                height: 700px;
+            }
+            .wedo-img{
+                object-fit: contain;
+            }
+
+            .wedo-rocket-wrapper{
+                position: relative;
+                height: 28px;
+                width: 28px;
+                margin-top: auto;
+                // border: 1px solid royalblue;
+                top: 90%;
+                rotate: -20deg;
+
+                @include lg{
+                    height: 54px;
+                    width: 54px;
+                    rotate: -10deg;
+                }
+
+                .we-rocekt{
+                    object-fit: contain;
+                }
+            }
+        }
+
+        .wedo-body{
+            margin-top: 1rem;
+            text-align: center;
+            font-family: 'poppins';
+            @include lg{
+                text-align: start;
+                margin-top: 0;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .wedo-hero-title{
+                font-size: 1.6rem;
+                @include lg{
+                    font-size: 3.4rem;
+                }
+            }
+            .wedo-sub-hero-txt{
+                margin-top: 1rem;
+            }
+            .wedo-contact-btn{
+                margin-top: 1.4rem;
+                border: 2px solid #1FBEFF;
+                padding: .6rem 2.6rem;
+                font-family: 'Source Sans Pro';
+                text-transform: uppercase;
+
+                &:focus, &:active{
+                    color: $primary-dark;
+                }
+
+                &:hover{
+                    color: #1FBEFF;
+                }
+            }
+
+        }
+    }
+}
+
+.we-offer-container{
+    .we-offer-header{
+        text-align: center;
+        font-family: 'Open Sans';
+        .we-offer-header-tittle{
+            font-size: 1.8rem;
+
+            @include lg{
+                padding-top: 4rem;
+                font-size: 2.4rem;
+            }
+        }
+        .we-offer-header-text{
+            margin-top: 1.4rem;
+            @include lg{
+                font-size: 1.1rem;
+                width: 40%;
+                margin: auto;
+                margin-top: 2rem;
+            }
+        }
+    }
+
+    .we-offer-grp{
+        .we-offer-grp-head{
+            margin-top: 1.8rem;
+            text-align: center;
+            font-size: 1.8rem;
+            font-family: 'Open Sans';
+            @include lg{
+                font-size: 2.4rem;
+                margin: 2.2rem 0;
+            }
+        }
+        .we-offer-card-grp{
+            @include lg{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            .we-offer-card{
+                position: relative;
+                margin-top: 1.4rem;
+                padding: 1.8rem 0;
+                display: flex;
+                align-items: flex-start;
+                gap: 1rem;
+
+                @include lg{
+                    width: 34%;
+                    padding: 3rem 0;
+                }
+
+                .we-offer-card-count{
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 4rem;
+                    color: #D5D0DA;
+                    line-height: normal;
+                }
+                .we-offer-card-content{
+                    .we-offer-card-tittle{
+                        font-family: 'Poppins';
+                        font-weight: 600;
+                        font-size: 1.2rem;
+                        width: 60%;
+
+                        @include lg{
+                            width: 40%;
+                        }
+                    }
+                    .we-offer-card-text{
+                        color: #444444;
+                        @include lg{
+                            width: 80%;
+                        }
+                    }
+                }
+                .we-offer-icon-container{
+                    padding: 1rem;
+                    background: $primary-dark;
+                    width: max-content;
+                    border-radius: 50%;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+
+                    .we-offer-card-icon-wrapper{
+                        position: relative;
+                        height: 38px;
+                        width: 38px;
+                        .we-offer-icon{
+                            object-fit: contain;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sp{
+    .sp-head{
+        text-align: center;
+        font-size: 1.6rem;
+
+        @include lg{
+            font-size: 2.4rem;
+        }
+    }
+
+    .sp-text{
+        margin-top: 1.4rem;
+        text-align: center;
+        @include lg{
+            width: 40%;
+            margin: auto;
+            margin-top: 1.8rem;
+        }
+    }
+}
+
+.hw{
+    .hw-head{
+        font-size: 1.6rem;
+        font-weight: 500;
+        @include lg{
+            font-size: 2.4rem;
+        }
+    }
+
+    .hw-text{
+        margin-top: 1.4rem;
+        @include lg{
+            width: 40%;
+        }
+    }
+}
+
+.we-m{
+    .we-m-grp{
+        @include lg{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .we-m-img-wrapper{
+            position: relative;
+            height: 220px;
+
+            @include lg{
+                height: 300px;
+                width: 60%;
+            }
+            .we-m-img{
+                object-fit: contain;
+            }
+        }
+
+        .we-m-side-grp{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 1.4rem;
+            @include lg{
+                margin-top: 0;
+            }
+
+            .we-m-item{
+                width: 44%;
+                font-family: 'Open Sans';
+                padding: 1rem 0;
+                border-bottom: 1px solid;
+                .we-m-item-head{
+                    font-weight: 600;
+                    font-size: 1.4rem;
+
+                    @include lg{
+                        font-size: 1.9rem;
+                        width: 80%;
+                    }
+                }
+                .we-m-item-text{
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}
+
+.why-choose-container{
+    .why-choose-header{
+        .why-choose-tittle{
+            font-size: 1.8rem;
+            text-align: center;
+        }
+        .why-choose-txt{
+            text-align: center;
+        }
+    }
+    .why-choose-wrapper{
+        margin-top: 1.8rem;
+
+        @include lg{
+            margin-top: 3.4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+        .why-choose-img-wrapper{
+            position: relative;
+            height: 350px;
+            
+            @include lg{
+                height: 600px;
+                width: 540px;
+                order: 2;
+            }
+
+            .why-choose-img{
+                object-fit: contain;
+            }
+        }
+
+        .why-choose-card-grp{
+            margin-top: 1.8rem;
+
+            @include lg{
+                margin-top: 0;
+                height: 550px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .why-choose-card{
+                margin-top: 1.4rem;
+                font-family: 'poppins';
+
+                &:nth-child(odd){
+                    text-align: end;
+
+                    .why-choose-card-icon-wrapper{
+                        margin-left: auto;
+
+                        @include lg{
+                            margin-left: 0;
+                        }
+                    }
+                }
+
+                @include lg{
+                    width: 60%;
+                    margin-top: 0;
+                }
+
+                .why-choose-card-icon-wrapper{
+                    position: relative;
+                    height: 48px;
+                    width: 48px;
+
+                    .why-choose-card-icon{
+                        object-fit: contain;
+                    }
+                }
+                .why-choose-card-title{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                }
+                .why-choose-card-txt{
+                    margin-top: .8rem;
+                }
+            }
+        }
+
+
+        .why-choose-grp-1{
+            @include lg{
+                order: 1;
+                .why-choose-card{
+                    text-align: right !important;
+                    margin-left: auto;
+                    .why-choose-card-icon-wrapper{
+
+                        @include lg{
+                            margin-left: auto !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .why-choose-grp-2{
+            @include lg{
+                order: 3;
+                .why-choose-card{
+                    text-align: left !important;
+
+                    .why-choose-card-icon-wrapper{
+                        @include lg{
+                            margin-right: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

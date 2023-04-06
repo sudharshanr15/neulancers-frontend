@@ -1,135 +1,147 @@
+import Image from "next/image"
 import Link from "next/link"
 
 export default function Home(){
   return (
     <>
-      <section className="hero-section">
-        <div className="hero-section-container">
-          <div className="row">
-            <div className="col-6">
-              <div className="hero-title-container">
-                <h1 className="hero-title">Best Software developers in Chennai.</h1>
-                <p className="hero-title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim harum sapiente totam consequuntur accusamus perspiciatis saepe laborum ea eveniet atque?</p>
+      <div className="home my-container auto-my">
+          <div className="home-content">
+            <div className="row gx-1">
+              <div className="col-12 col-lg-6 hero-head-wrapper">
+                  <div className="hero-head">Best Software developers in Chennai</div>
+                  <p className="text-secondary hero-text">Finely processed farm produce, safe guaranteed and secured investment platform</p>
+                  <button className="mt-5 btn hero-btn rounded-pill ps-5 d-none d-lg-flex" type="button"><span>Get Started</span> <span className="btn-inner-arrow"><i className="bi bi-arrow-right-circle-fill"></i></span></button>
               </div>
-              <Link href="" className="btn get-started-btn">
-                <span className="btn-text">Get Started</span>
-                <span className="arrow-span"><i className="bi bi-arrow-right-short fs-3"></i></span>
-              </Link>
-            </div>
-            <div className="col-6">
-              <p>Hello</p>
-            </div>
-          </div>
-          <div className="intro-container">
-            <h3 className="intro-title">WE ARE NEULANCERS</h3>
-            <p className="intro-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quam quidem perferendis molestias a ut ullam recusandae fuga delectus commodi?</p>
-          </div>
-        </div>
-      </section>
-      <section className="about-us-section">
-        <div className="about-us-section-container">
-          <div className="row">
-            <div className="col-6">
-
-            </div>
-            <div className="col-6 about-us-content-container">
-              <h2 className="about-us-title">About Us</h2>
-              <h3 className="about-us-title-text">Innovating with a Digitial Mindset</h3>
-              <p className="about-us-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ab, eligendi fugiat architecto officia obcaecati qui dicta dolorem. Quo cum recusandae perspiciatis debitis modi ut officia reiciendis dolor repellat numquam?</p>
-              <Link href="" className="contact-us-link">Contact Us</Link>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="our-expertise-section">
-        <div className="our-expertise-section-container">
-          <div className="row">
-            <div className="col-5">
-              <h2 className="our-expertise-title"><span className="first">OUR</span><span className="second">EXPERTISE</span></h2>
-            </div>
-            <div className="col-7">
-              <div className="expertise-list">
-                <div className="card expertise-item">
-                  <div className="card-body">
-                    <div className="card-title">Technology Consulting</div>
-                    <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam fugiat labore, aut repellat explicabo itaque corporis facere commodi aliquam!</div>
+              <div className="col">
+                <div className="hero-img-content">
+                  <div className="hero-img-wrapper">
+                    <Image className="hero-img" src={'/assets/images/hero-banner.png'} alt='hero banner' fill/>
                   </div>
-                </div>
-                <div className="card expertise-item">
-                  <div className="card-body">
-                    <div className="card-title">App Development</div>
-                    <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam fugiat labore, aut repellat explicabo itaque corporis facere commodi aliquam!</div>
-                  </div>
-                </div>
-                <div className="card expertise-item">
-                  <div className="card-body">
-                    <div className="card-title">Research and development</div>
-                    <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam fugiat labore, aut repellat explicabo itaque corporis facere commodi aliquam!</div>
-                  </div>
+                  <button className="btn hero-btn rounded-pill d-lg-none" type="button"><span>Get Started</span><span className="btn-inner-arrow"><i className="bi bi-arrow-right-circle-fill"></i></span></button>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section className="specialization-section">
-        <div className="specialization-section-container">
-          <h2 className="specialization-title">
-            <span className="first">Our other</span>
-            <span className="second">Specialization</span>
-          </h2>
-          <div className="row specialization-list">
-            <div className="col-4 specialization-item specialization-item__first">
-               <div className="specialization-item-container">
-                <div className="card">
-                  <div className="card-body">
-                    <div className="card-title">
-                      Internet of Things
-                    </div>
-                    <div className="card-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aliquid doloremque hic quaerat eos natus, a ratione fuga velit quas!
-                    </div>
-                  </div>
-                </div>
-               </div>
+      </div>
+      <div className="home-intro my-container auto-my">
+        <div className="home-intro-title">We are neulancers</div>
+        <div className="home-intro-text mt-4">We are an agency focused on <span className="text-primary">web</span> developement providing best solution to grow up your business is the prime motto we put into our work everyday</div>
+        <hr className="mt-5 d-none d-lg-block" />
+      </div>
+      <div className="home-about my-container auto-my">
+        <div className="row flex-lg-row-reverse">
+          <div className="col-12 col-lg-6">
+            <div className="home-about-title text-muted">About Us</div>
+            <div className="home-about-header mt-2">Innovating with a Digital Mindset</div>
+            <div className="home-about-text mt-3">Since 2007 we have been a visionary and a reliable software engineering partner for world-class brands. We are a boutique digital transformation consultancy and software development company that provides cutting edge engineering solution</div>
+            <Link className="home-about-link btn mt-3 ps-0" href={'/'}>Contact Us <span><i className="bi bi-arrow-right"></i></span></Link>
+          </div>
+          <div className="col">
+            <div className="home-about-img-wrapper">
+              <Image className="home-about-img" alt='girl with laptop' src={'/assets/images/girllaptop.png'} fill/>
             </div>
-            <div className="col-4 specialization-item specialization-item__second">
-               <div className="specialization-item-container">
-                <div className="card">
-                  <div className="card-body">
-                    <div className="card-title">
-                      Internet of Things
-                    </div>
-                    <div className="card-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aliquid doloremque hic quaerat eos natus, a ratione fuga velit quas!
-                    </div>
-                  </div>
-                </div>
-               </div>
-            </div>
-            <div className="col-4 specialization-item specialization-item__third">
-               <div className="specialization-item-container">
-                <div className="card">
-                  <div className="card-body">
-                    <div className="card-title">
-                      Internet of Things
-                    </div>
-                    <div className="card-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aliquid doloremque hic quaerat eos natus, a ratione fuga velit quas!
-                    </div>
-                  </div>
-                </div>
-               </div>
-            </div>
-
           </div>
         </div>
-      </section>
-      <section className="disparate-section">
-        <div className="disparate-section-container">
-          <h1>sdf</h1>
+      </div>
+      <div className="my-container auto-my expertise">
+        <div className="row g-0 justify-content-center">
+          <div className="col-3 col-lg-3">
+            <div className="expertise-side-grp">
+              <div className="expertise-side-c">
+                <div className="expertise-side-dec">our</div>
+                <div className="expertise-side-header">expertise</div>
+              </div>
+            </div>
+          </div>
+          <div className="col col-lg-4">
+            <div className="expertise-card-grp">
+              <div className="expertise-card">
+                    <div className="expertise-card-icon-wrapper">
+                      <Image className="expertise-card-icon" src={'/assets/icons/blub.png'} alt='blub' fill />
+                    </div>
+                    <div className="expertise-card-title">
+                      Technology Consulting
+                    </div>
+                    <div className="expertise-card-text">
+                      Build a secure, future-proof application through the latest technologies and enhance your user experience
+                    </div>
+                    <Link className="expertise-link" href={'/'}>Explore Now</Link>
+              </div>
+              <div className="expertise-card">
+                    <div className="expertise-card-icon-wrapper">
+                      <Image className="expertise-card-icon" src={'/assets/icons/desktop.png'} alt='Desktop' fill />
+                    </div>
+                    <div className="expertise-card-title">
+                      Technology Consulting
+                    </div>
+                    <div className="expertise-card-text">
+                      Build a secure, future-proof application through the latest technologies and enhance your user experience
+                    </div>
+                    <Link className="expertise-link" href={'/'}>Explore Now</Link>
+              </div>
+              <div className="expertise-card">
+                    <div className="expertise-card-icon-wrapper">
+                      <Image className="expertise-card-icon" src={'/assets/icons/telescope.png'} alt='telescope' fill />
+                    </div>
+                    <div className="expertise-card-title">
+                      Technology Consulting
+                    </div>
+                    <div className="expertise-card-text">
+                      Build a secure, future-proof application through the latest technologies and enhance your user experience
+                    </div>
+                    <Link className="expertise-link" href={'/'}>Explore Now</Link>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+
+      <div className="my-container auto-my specialization">
+          <div className="special-header">
+            <div className="special-title d-lg-none">
+                Our Other <span className="fw-semibold">Specialization</span>
+            </div>
+            <div className="special-lg-title d-none d-lg-block">
+              Unlock
+              <div className="fw-semibold">Cutting Edge Technologies </div>
+            </div>
+            <div className="special-card-grp">
+              <div className="special-card">
+                  <div className="special-card-header">
+                      <div className="special-card-icon-wrapper">
+                          <Image className="special-card-icon" src={'/assets/icons/iot.png'} alt='IOT' fill />
+                      </div>
+                          <span className="special-card-tittle">Internet of Things</span>
+                      </div>
+                      <div className="special-card-text">
+                        Build a secure, future-proof application through the latest technologies and enhance your user experience
+                      </div>
+              </div>
+              <div className="special-card">
+                  <div className="special-card-header">
+                      <div className="special-card-icon-wrapper">
+                          <Image className="special-card-icon" src={'/assets/icons/ai.png'} alt='AI' fill />
+                      </div>
+                          <span className="special-card-tittle">Artificial Intelligence</span>
+                      </div>
+                      <div className="special-card-text">
+                        Build a secure, future-proof application through the latest technologies and enhance your user experience
+                      </div>
+              </div>
+              <div className="special-card">
+                  <div className="special-card-header">
+                      <div className="special-card-icon-wrapper">
+                          <Image className="special-card-icon" src={'/assets/icons/ml.png'} alt='ML' fill />
+                      </div>
+                          <span className="special-card-tittle">Machine Learning</span>
+                      </div>
+                      <div className="special-card-text">
+                        Build a secure, future-proof application through the latest technologies and enhance your user experience
+                      </div>
+              </div>
+            </div>
+          </div>
+      </div>
     </>
   )
 }

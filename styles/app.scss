@@ -4,8 +4,47 @@
 @import "modules/breakpoints";
 @import "modules/_fonts";
 @import "modules/colors";
-@import "modules/bootstrap";
+// @import "modules/bootstrap";
 
 /* Components */
 @import "modules/navbar";
 @import "modules/index";
+@import "modules/about";
+@import "modules/wedo";
+@import "modules/rd";
+
+
+
+@mixin my-container($padding-x) {
+    width: 100%;
+    padding-right: $padding-x;
+    padding-left: $padding-x;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.my-container{
+    @include my-container(10px);
+    @include md{
+        @include my-container(24px);
+    }
+    @include lg{
+        @include my-container(80px)
+    }
+    @include xl{
+        @include my-container(120px)
+    }
+    @include xxl{
+        @include my-container(160px)
+    }
+}
+
+.auto-my{
+    margin: 32px 0;
+    @include lg{
+        margin: 48px 0;
+    }
+    @include xl{
+        margin: 64px 0;
+    }
+}
