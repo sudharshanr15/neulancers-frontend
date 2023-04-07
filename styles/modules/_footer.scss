@@ -1,0 +1,191 @@
+.footer{
+    @extend .my-container;
+    color: white;
+    margin-top: 2rem;
+    position: relative;
+    overflow: hidden;
+
+    .footer-bg-svg{
+        border: 1px solid blue;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .footer-main{
+        padding: 2rem .8rem;
+
+        @include lg{
+            display: flex;
+            gap: 1rem;
+            justify-content: space-between;
+            border-bottom: 1px solid #ffffff80;
+        }
+
+        .footer-txt-img-wrapper{
+            display: none;
+            @include lg{
+                display: block;
+                position: relative;
+                height: 240px;
+                width: 300px;
+            }
+            .footer-txt-img{
+                object-fit: contain;
+            }
+        }
+
+        .footer-logo-grp{
+            @include lg{
+                max-width:  300px;
+                padding-top: 1rem;
+            }
+            .footer-brand-wrapper{
+                position: relative;
+                height: 56px;
+                width: 150px;
+                margin: 0 auto;
+
+                @include lg{
+                    margin: 0;
+                    height: 74px;
+                    width: 250px;
+                }
+
+                .footer-logo-img{
+                    object-fit: contain;
+                }
+            }
+
+            .footer-logo-txt{
+                text-align: center;
+                @include lg{
+                    text-align: start;
+                }
+            }
+        }
+
+        .quick-link-grp{
+            @include lg{
+                padding-top: 1rem;
+            }
+            .quick-link-header{
+                font-size: 1.4rem;
+                font-family: 'poppins';
+                font-weight: 600;
+                text-align: center;
+                padding: 1rem 0;
+                border-bottom: 1px solid white;
+                margin: auto;
+                width: max-content;
+
+
+                @include lg{
+                    text-align: start;
+                    margin: 0;
+                    border-bottom: 0;
+
+                    &::after{
+                        content: ' ';
+                        display: block;
+                        width: 50%;
+                        border-top: 1px solid white;
+                        margin-top: .8rem;
+                    }
+                }
+            }
+            .quick-link-nav{
+                text-align: center;
+                margin-top: .8rem;
+
+                .quick-link{
+                    text-align: center;
+                    text-transform: uppercase;
+                    display: block;
+                    color: white;
+                    font-family: 'Source Sans Pro', 'Source Sans';
+                    text-decoration: none;
+                    padding: .4rem 0;
+                    @include lg{
+                        text-align: start;
+                    }
+                }
+            }
+        }
+
+        .connect-with-us-grp{
+            border-bottom: 1px solid #ffffff80;
+            padding-bottom: 1.4rem;
+            @include lg{
+                border-width: 0;
+                padding-top: 1rem;
+                padding-bottom: 0;
+            }
+
+            .connect-header{
+                font-family: 'poppins';
+                text-align: center;
+                font-size: 1.4rem;
+                font-weight: 600;
+                padding: 1rem 0;
+                border-bottom: 1px solid white;
+                width: max-content;
+                margin: auto;
+
+                @include lg{
+                    text-align: start;
+                    border-bottom: 0;
+                    margin: 0;
+
+                    &::after{
+                        content: ' ';
+                        display: block;
+                        width: 50%;
+                        border-top: 1px solid white;
+                        margin-top: .8rem;
+                    }
+                }
+
+            }
+            .connect-item-grp{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 1.2rem;
+                @include lg{
+                    gap: 2rem;
+                }
+                .connect-item{
+                    .connect-img-wrapper{
+                        display: block;
+                        position: relative;
+                        height: 28px;
+                        width: 28px;
+                        @include lg{
+                            height: 32px;
+                            width: 32px;
+                        }
+                        .connect-img{
+                            object-fit: contain;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-last-brand{
+        display: none;
+        @include lg{
+            display: block;
+            padding: 2rem 0;
+        }
+        .footer-last-brand-wrapper{
+            position: relative;
+            height: 48px;
+            width: 200px;
+            .footer-last-img{
+                object-fit: contain;
+            }
+        }
+    }
+}

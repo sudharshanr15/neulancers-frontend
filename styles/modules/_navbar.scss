@@ -1,5 +1,71 @@
-.mynavbar{
-    height: 70px;
-    border: 2px solid black;
-    background-color: #232323;
+.navbar{
+    .navbar-content{
+        @extend .my-container;
+
+        .navbar-brand{
+            .navbar-wrapper{
+                position: relative;
+                height: 56px;
+                width: 150px;
+                border: 1px solid transparent;
+                @include lg{
+                    height: 74px;
+                    width: 240px;
+
+                }
+                .navbar-img{
+                    object-fit: contain;
+                }
+            }
+        }
+
+        .navbar-toggler{
+            .navbar-toggler-icon{
+                background-image: url('/assets/icons/nav-icon.png') !important;
+            }
+
+            &:focus{
+                box-shadow: none;
+            }
+        }
+
+        .navbar-nav{
+            text-transform: uppercase;
+            font-family: 'Source Sans Pro', 'Source Sans';
+            @include lg{
+                width: 70%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+        }
+
+        .nav-bar-grp{
+            @include lg{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+                gap: 1rem;
+            }
+        }
+
+        .nav-contact-btn{
+            background: $primary-dark;
+            color: white;
+            font-weight: 500;
+            font-family: 'poppins';
+
+            &:focus, &:hover{
+                border: 1px solid $primary-dark;
+                background: none;
+                color: $primary-dark;
+            }
+
+            .btn-txt{
+                padding: 0 1.4rem;
+            }
+        }
+    }
 }

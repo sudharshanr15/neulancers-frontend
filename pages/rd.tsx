@@ -118,6 +118,61 @@ export default function rd(){
                     </div>
                 </div>
             </div>
+
+            <div className="rd3 my-container auto-my">
+                <div className="row g-0">
+                    <div className="col-12 col-lg-6">
+                        <div className="rd3-l">
+                            <div className="rd3-tittle">
+                                We provide best research Services For Your company
+                            </div>
+                            <div className="rd3-txt">
+                                MacAppStudio’s success is based on our ability to create new experiences for our users and systematically invest in research and innovation. We invest in a range of emerging technologies and breakthroughs, which we believe will create significant 
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="rd3-img-wrapper">
+                            <Image className="rd3-img" alt='' src={'/assets/images/rd-ser.png'} fill/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="rd-whyus my-container auto-my">
+                <div className="rd-whyus-head">Why Us?</div>
+                <div className="rd-whyus-title">We provide brilliant ideas & adding the world called success to our customers</div>
+                <div className="rd-whyus-main-grp">
+                    <div className="rd-whyus-img-wrapper">
+                        <Image className="rd-whyus-img" alt='team planing' src={'/assets/images/rd-y.png'} fill />
+                    </div>
+                    <div className="rd-why-sec-grp">
+                        <div className="rd-whyus-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        </div>
+                        <div className="rd-whyus-card">
+                            <div className="rd-whyus-card-grp">
+                                <div className="rd-whyus-card-title">
+                                    Loreem iopsumTed ut perspiciatis unde omnis iste is a simple dummy
+                                </div>
+                                <div className="rd-whyus-card-footer">
+                                    <div className="rd-whyus-name">
+                                        Naveen raj
+                                    </div>
+                                    <div className="rd-whyus-role">
+                                        Founder, CEO
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="rd-whyus-card-quote-grp">
+                                <div className="rd-whyus-card-icon-wrapper">
+                                    <Image className='rd-whyus-card-img' alt='' src={'/assets/images/quote-1.png'} fill/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
