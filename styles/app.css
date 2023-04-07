@@ -106,7 +106,8 @@
   color: white;
   margin-top: 2rem;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  background: #232323; }
   .footer .footer-bg-svg {
     border: 1px solid blue;
     position: absolute;
