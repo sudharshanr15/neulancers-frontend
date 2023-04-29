@@ -150,10 +150,8 @@ section{
 }
 
 .home-about{
-    padding-top: 60px;
-
     @include lg{
-        padding-top: 100px;
+        padding-top: 100px !important;
     }
 
     .home-about-title{
@@ -238,7 +236,7 @@ section{
 
 .expertise{
     max-width: 1440px;
-    
+
     .expertise-side-grp{
         height: 100%;
 

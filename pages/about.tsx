@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function about(){
     return(
         <>
-            <div className="my-container about-company-hero auto-my">
+            <section className="my-container about-company-hero">
                 <div className="about-company-wrapper">
                     <div className="about-company-header rounded-pill">about our company</div>
                     <div className="about-company-text"><span className='fw-semibold'>Neulancers</span> is a <br/> Next Gen Technology & IT <br/> Solution Agency </div>
@@ -12,9 +12,9 @@ export default function about(){
                     </div>
                     <div className="about-company-overlay"></div>
                 </div>
-            </div>
+            </section>
 
-            <div className="top-reasons my-container auto-my">
+            <div className="top-reasons my-container">
                 <div className="top-reasons-head">
                     <p className='top-reasons-tittle'>Top <span className='fw-semibold'>Reasons</span></p>
                     <p className='text-muted px-2'>Lorrem ipsum is a simple dummy text to define you</p>
@@ -43,7 +43,7 @@ export default function about(){
                 </div>
             </div>
 
-            <div className="my-container auto-my help-msg-container">
+            <div className="my-container help-msg-container">
                 <div className="row g-0">
                     <div className="col-12 col-lg-6">
                         <div className="help-msg-head">
@@ -73,7 +73,7 @@ export default function about(){
                 </div>
             </div>
 
-            <div className="our-coders-container my-container auto-my">
+            <div className="our-coders-container my-container">
                 <div className="row">
                     <div className="col-12 col-lg-6">
                         <div className="our-coders-img-grp">
@@ -120,7 +120,7 @@ export default function about(){
                 </div>
             </div>
 
-            <div className="our-team my-container auto-my">
+            <div className="our-team my-container">
                 <div className="our-team-header">
                     <div className="our-team-tittle">Meet Our <span className='fw-semibold'>Team</span></div>
                     <div className="our-team-subtext text-muted">Lorrem ipsum is a dummy text to define you</div>
@@ -151,7 +151,7 @@ export default function about(){
                 </div>
             </div>
 
-            <div className="our-vision auto-my my-container">
+            <div className="our-vision my-container">
                 <div className="our-vision-grp">
                     <div className="our-vision-img-wrapper">
                         <Image className="our-vision-img" src={'/assets/images/bullseye.png'} alt='bullseye' fill />
@@ -161,7 +161,7 @@ export default function about(){
                     <div className="our-vision-text">To be the world's best and most <br className='d-none d-lg-inline'/> trusted Software Development <br className='d-none d-lg-inline'/> company</div>
             </div>
 
-            <div className="our-mission auto-my my-container">
+            <div className="our-mission my-container">
                 <div className="our-mission-grp">
                     <div className="our-mission-img-wrapper">
                         <Image className="our-mission-img" src={'/assets/images/maninhill.png'} alt='img' fill/>

@@ -25,19 +25,22 @@
   }
 
 .my-container{
-    @include my-container(10px);
-    @include md{
-        @include my-container(24px);
-    }
-    @include lg{
-        @include my-container(80px)
-    }
-    @include xl{
-        @include my-container(120px)
-    }
-    @include xxl{
-        @include my-container(160px)
-    }
+    // @include my-container(10px);
+    // @include md{
+    //     @include my-container(24px);
+    // }
+    // @include lg{
+    //     @include my-container(80px)
+    // }
+    // @include xl{
+    //     @include my-container(120px)
+    // }
+    // @include xxl{
+    //     @include my-container(160px)
+    // }
+    padding: 1rem;
+    max-width: 1440px;
+    margin-inline: auto;
 }
 
 .auto-my{
