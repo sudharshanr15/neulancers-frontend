@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function wedo(){
     return(
         <>
-            <div className="wedo-hero my-container auto-my">
+            <section className="wedo-hero my-container">
                 <div className="wedo-content">
                     <div className="row">
                         <div className="col-12 col-lg-6 order-lg-2">
@@ -30,9 +30,9 @@ export default function wedo(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="we-offer-container my-container auto-my">
+            <section className="we-offer-container my-container">
                 <div className="we-offer-header">
                     <div className="we-offer-header-tittle">
                         Our <span className='fw-semibold'>Application</span> Devlopment Services
@@ -149,19 +149,19 @@ export default function wedo(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="sp auto-my my-container">
+            <section className="sp my-container">
                 <div className="sp-head"><span className="fw-semibold">Secured</span> App Devlopment</div>
                 <p className='sp-text'>Since 2007 we have been a visionary and a reliable software engineering partner for world-class brands. We are a boutique digital transformation consultancy and software development company that provides cutting edge engineering solution</p>
-            </div>
+            </section>
 
-            <div className="hw my-container auto-my">
+            <section className="hw my-container">
                 <div className="hw-head">How we do it?</div>
                 <p className="hw-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-            </div>
+            </section>
 
-            <div className="we-m my-container auto-my">
+            <section className="we-m my-container">
                 <div className="we-m-grp">
                     <div className="we-m-img-wrapper">
                         <Image className="we-m-img" src={'/assets/images/appdevc.png'} alt='secure' fill/>
@@ -185,9 +185,9 @@ export default function wedo(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="why-choose-container my-container auto-my">
+            <section className="why-choose-container my-container">
                 <div className="why-choose-header">
                     <p className="why-choose-tittle">
                         Why <span className='fw-semibold'>Choose</span> Us
@@ -231,7 +231,7 @@ export default function wedo(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

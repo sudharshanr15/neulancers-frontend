@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function rd(){
     return(
         <>
-            <div className="rd-hero my-container auto-my">
+            <section className="rd-hero my-container">
                 <div className="rd-content">
                     <div className="row">
                         <div className="col-12 col-lg-6 order-lg-2">
@@ -27,9 +27,9 @@ export default function rd(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="rd-1 my-container auto-my">
+            <section className="rd-1 my-container">
                 <div className="rd-1-content">
                     <div className="rd-1-tittle">
                         Research & Devlopment
@@ -48,9 +48,9 @@ export default function rd(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="rd2 my-container auto-my">
+            <section className="rd2 my-container">
                 <div className="rd2-content">
                     <div className="rd2-item rd2-item-1">
                         <div className="rd2-img-grp">
@@ -81,18 +81,18 @@ export default function rd(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="rd2-sm-quote-card-wrapper my-container auto-my d-lg-none">
+            <section className="rd2-sm-quote-card-wrapper my-container d-lg-none">
                 <div className="rd2-sm-quote-card">
                     <div className="rd2-sm-quote-icon"><i className="bi bi-quote"></i></div>
                     <div className="rd2-sm-text">
                         Loreem iopsumTed ut perspiciatis unde omnis iste is a simple dummy natus error voluptatem accusan tium
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="why-rd my-container auto-my">
+            <section className="why-rd my-container">
                 <div className="row g-0">
                     <div className="col-12 col-lg-6 order-lg-2">
                         <div className="why-rd-title">
@@ -108,18 +108,18 @@ export default function rd(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="our-rd auto-my">
+            <section className="our-rd">
                 <div className="our-rd-wrapper">
                     <div className="our-rd-title">Our <span className='fw-semibold'>R&D</span> Process</div>
                     <div className="our-rd-img-wrapper">
                         <Image className="our-rd-img" src={'/assets/images/rd-process-blub.png'} alt='blub' fill/>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="rd3 my-container auto-my">
+            <section className="rd3 my-container">
                 <div className="row g-0">
                     <div className="col-12 col-lg-6">
                         <div className="rd3-l">
@@ -137,9 +137,9 @@ export default function rd(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="rd-whyus my-container auto-my">
+            <section className="rd-whyus my-container">
                 <div className="rd-whyus-head">Why Us?</div>
                 <div className="rd-whyus-title">We provide brilliant ideas & adding the world called success to our customers</div>
                 <div className="rd-whyus-main-grp">
@@ -172,7 +172,7 @@ export default function rd(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }
