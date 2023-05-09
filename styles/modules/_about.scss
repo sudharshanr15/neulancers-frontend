@@ -8,6 +8,7 @@
         padding: 1rem;
         border-radius: 8px;
         overflow: hidden;
+        height: 480px;
 
         @include lg{
             padding: 1.6rem;
@@ -26,15 +27,28 @@
             margin-top: 1rem;
             text-align: center;
             color: white;
+            
 
             @include lg{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
                 font-size: 54px;
+                line-height: 152%;
+                
+
+                text-align: center;
+                letter-spacing: 0.0015em;
+
+                color: #FFFFFF;
             }
         }
         .about-company-img-wrapper{
             .about-company-img{
                 z-index: -1;
                 object-fit: cover;
+                
+                
             }
         }
         .about-company-overlay{
@@ -55,7 +69,12 @@
             font-size: 1.8rem;
             
             @include lg{
-                font-size: 2.4rem;
+
+                font-size: 55px;
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                margin-top: -2cm;
             }
         }
     }
@@ -68,8 +87,12 @@
 
         @include lg{
             border: 1px solid grey;
+            width: 1217px;
+            height: 130px;
             border-radius: 8px;
             padding: 1rem;
+            align-items: center;
+            margin-left: 70px;
             justify-content: space-around;
         }
 
@@ -88,17 +111,19 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-
+           
             @include lg{
                 flex-direction: row;
             }
 
             .top-reasons-icon-wrapper{
                 position: relative;
-                height: 48px;
-                width: 48px;
+                height: 71px;
+                width: 71px;
                 margin: auto;
                 .top-reasons-icon{
+                    height: 70px;
+                    width: 70px;
                     object-fit: contain;
                 }
 
@@ -107,8 +132,9 @@
                         content: ' ';
                         display: inline-block;
                         background: #dfdddd;
-                        height: 40px;
-                        width: 40px;
+                        height: 71px;
+                        width: 71px;
+
                         border-radius: 50%;
                         right: .6rem;
                         bottom : .6rem;
@@ -124,6 +150,11 @@
 
                 @include lg{
                     width: 100%;
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 152%;
                 }
             }
         }
@@ -144,9 +175,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 60%;
-            height: 100%;
+            width: 700px;
+            height: 192px;
+            padding-top: 250px;
             margin: auto;
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 134%;
         }
     }
 
@@ -171,6 +208,11 @@
             display: none;
             @include lg{
                 display: block;
+                position: absolute;
+                width: 38px;
+                height: 38px;
+                margin-top: 10px;
+                
             }
         }
 
@@ -179,12 +221,14 @@
                 width: 95%;
                 line-height: 1.8rem;
                 font-size: 1.4rem;
+                padding-left: 5rem;
             }
         }
     }
 }
 
 .our-coders-container{
+    background: #EDF3F9;
     .our-coders-img-grp{
             display: flex;
             justify-content: space-between;
@@ -268,6 +312,13 @@
             text-align: center;
             @include lg{
                 font-size: 2rem;
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 55.0692px;
+                line-height: 152%;
+                
+                height: 84px;
             }
         }
         .our-team-subtext{
