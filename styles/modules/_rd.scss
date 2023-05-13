@@ -1,4 +1,6 @@
 .rd-hero{
+    background-color: #F2F8FA;
+
     &::before{
         content: ' ';
         display: inline-block;
@@ -174,6 +176,7 @@
 }
 
 .rd2{
+    background-color: #EDF0F8;
     min-height: 280px;
     @include lg{
         min-height: 800px;
@@ -334,8 +337,8 @@
 
         @include lg{
             text-align: start;
-            font-size: 2.4rem;
-            margin-top: 3rem;
+            font-size: 55px;
+            line-height: 152%;
         }
     }
     .why-rd-text{
@@ -344,6 +347,8 @@
 
         @include lg{
             text-align: start;
+            font-size: 22px;
+            line-height: 43px;
         }
     }
     .why-rd-img-wrapper{
@@ -398,19 +403,19 @@
         font-family: 'poppins';
         .rd3-tittle{
             font-size: 2rem;
-            font-weight: 600;
+            font-weight: 500;
 
             @include lg{
-                font-size: 2.4rem;
-                width: 70%;
+                margin-bottom: 1.5rem;
+                font-size: 45px;
+                line-height: 65px;
             }
         }
+
         .rd3-txt{
-            margin-top: .8rem;
             @include lg{
-                width: 80%;
-                font-size: 1.2rem;
-                line-height: 180%;
+                font-size: 22px;
+                line-height: 44px;
             }
         }
 
@@ -436,6 +441,7 @@
 .rd-whyus{
     font-family: 'poppins';
     .rd-whyus-head{
+        margin-bottom: 1.5rem;
         text-align: center;
         color: white;
         font-size: 2rem;
@@ -448,13 +454,13 @@
     .rd-whyus-title{
         font-size: 1.4rem;
         font-weight: 600;
-        margin-top: 1.2rem;
+        text-align: center;
 
         @include lg{
-            text-align: center;
-            width: 50%;
-            margin: 1.2rem auto;
-            font-size: 1.6rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            font-size: 35.9441px;
+            line-height: 45px;
         }
     }
 
@@ -493,34 +499,36 @@
     .rd-whyus-text{
         margin-top: 1.6rem;
         @include lg{
-            font-size: 1.2rem;
-            line-height: 220%;
+            font-size: 22px;
+            line-height: 43px;
         }
     }
 
     .rd-whyus-card{
         background: #EBEBEB;
         padding: 1rem;
-        position: relative;
         margin-top: 1rem;
 
         @include lg{
-            position: absolute;
-            width: 45%;
-            right: 0;
-            bottom: 0;
+        //     position: absolute;
+            width: 100%;
+            max-width: 420px;
+            margin-left: auto;
+        //     right: 0;
+        //     bottom: 0;
         }
 
         .rd-whyus-card-title{
-            font-size: 1.2rem;
-            font-weight: 600;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 37px;
         }
 
         .rd-whyus-card-footer{
             margin-top: 2rem;
             .rd-whyus-name{
-                font-size: 1.2rem;
-                font-weight: 500;
+                font-size: 24px;
+                line-height: 152%;
             }
             .rd-whyus-role{
                 color: #444444;
@@ -530,7 +538,8 @@
         .rd-whyus-card-quote-grp{
             position: absolute;
             right: 1rem;
-            bottom: -1rem;
+            bottom: 0;
+            transform: translateY(-90%);
 
             .rd-whyus-card-icon-wrapper{
                 position: relative;

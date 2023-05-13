@@ -4,25 +4,27 @@ import Link from 'next/link'
 export default function rd(){
     return(
         <>
-            <section className="rd-hero my-container">
-                <div className="rd-content">
-                    <div className="row">
-                        <div className="col-12 col-lg-6 order-lg-2">
-                            <div className="rd-img-wrapper">
-                                <Image className="rd-img" src={'/assets/images/robothero.png'} alt='hero img' fill />
+            <section className="rd-hero">
+                <div className="my-container">
+                    <div className="rd-content">
+                        <div className="row">
+                            <div className="col-12 col-lg-6 order-lg-2">
+                                <div className="rd-img-wrapper">
+                                    <Image className="rd-img" src={'/assets/images/robothero.png'} alt='hero img' fill />
+                                </div>
                             </div>
-                        </div>
-                        <div className="col">
-                            <div className="rd-body">
-                                <div className="rd-hero-title">
-                                    <span className='fw-semibold'>The thoughtful agency</span> product leaders and their
+                            <div className="col">
+                                <div className="rd-body">
+                                    <div className="rd-hero-title">
+                                        <span className='fw-semibold'>The thoughtful agency</span> product leaders and their
+                                    </div>
+                                    <div className="rd-sub-hero-txt text-muted">
+                                        Lorrem ipsum is a simple dummy text to define you
+                                    </div>
+                                    <Link href={'/'}>
+                                        <button className='btn rd-contact-btn rounded-pill' type='button'>Contact Us</button>
+                                    </Link>
                                 </div>
-                                <div className="rd-sub-hero-txt text-muted">
-                                    Lorrem ipsum is a simple dummy text to define you
-                                </div>
-                                <Link href={'/'}>
-                                    <button className='btn rd-contact-btn rounded-pill' type='button'>Contact Us</button>
-                                </Link>
                             </div>
                         </div>
                     </div>
@@ -50,33 +52,35 @@ export default function rd(){
                 </div>
             </section>
 
-            <section className="rd2 my-container">
-                <div className="rd2-content">
-                    <div className="rd2-item rd2-item-1">
-                        <div className="rd2-img-grp">
-                            <div className="rd2-img-wrapper">
-                                <Image className="rd2-img" src={'/assets/images/rd1-team.png'} alt='team' fill/>
+            <section className="rd2">
+                <div className="my-container">
+                    <div className="rd2-content">
+                        <div className="rd2-item rd2-item-1">
+                            <div className="rd2-img-grp">
+                                <div className="rd2-img-wrapper">
+                                    <Image className="rd2-img" src={'/assets/images/rd1-team.png'} alt='team' fill/>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="rd2-item rd2-item-2">
-                        <div className="rd2-tittle">Lorrem Ipsum <br/> Simple</div>
-                        <div className="rd2-img-grp">
-                            <div className="rd2-img-wrapper">
-                                <Image className="rd2-img" src={'/assets/images/rd2-team.png'} alt='team' fill/>
+                        <div className="rd2-item rd2-item-2">
+                            <div className="rd2-tittle">Lorrem Ipsum <br/> Simple</div>
+                            <div className="rd2-img-grp">
+                                <div className="rd2-img-wrapper">
+                                    <Image className="rd2-img" src={'/assets/images/rd2-team.png'} alt='team' fill/>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="rd2-item rd2-item-3">
-                        <div className="rd2-quote-card d-none d-lg-block">
-                            <div className="rd2-quote-icon"><i className="bi bi-quote"></i></div>
-                            <div className="rd2-quote-text">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In dolorum, iste itaque autem odit blanditiis nulla porro soluta deserunt mollitia fuga est 
+                        <div className="rd2-item rd2-item-3">
+                            <div className="rd2-quote-card d-none d-lg-block">
+                                <div className="rd2-quote-icon"><i className="bi bi-quote"></i></div>
+                                <div className="rd2-quote-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In dolorum, iste itaque autem odit blanditiis nulla porro soluta deserunt mollitia fuga est 
+                                </div>
                             </div>
-                        </div>
-                        <div className="rd2-img-grp">
-                            <div className="rd2-img-wrapper">
-                                <Image className="rd2-img" src={'/assets/images/rd3-team.png'} alt='team' fill/>
+                            <div className="rd2-img-grp">
+                                <div className="rd2-img-wrapper">
+                                    <Image className="rd2-img" src={'/assets/images/rd3-team.png'} alt='team' fill/>
+                                </div>
                             </div>
                         </div>
                     </div>
