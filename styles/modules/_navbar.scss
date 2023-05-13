@@ -1,21 +1,23 @@
 .navbar{
+    padding-inline: 1rem;
+    @include lg{
+        position: absolute !important;
+        top: 0;
+        width: 100%;
+    }
+
+    & + section, & + div{
+        padding-top: 100px;
+    }
     .navbar-content{
         @extend .my-container;
+        padding: 0 !important;
 
         .navbar-brand{
-            .navbar-wrapper{
-                position: relative;
-                height: 56px;
-                width: 150px;
-                border: 1px solid transparent;
-                @include lg{
-                    height: 74px;
-                    width: 240px;
-
-                }
-                .navbar-img{
-                    object-fit: contain;
-                }
+            padding: 0;
+            .navbar-img{
+                width: 100%;
+                max-width: 170px;
             }
         }
 

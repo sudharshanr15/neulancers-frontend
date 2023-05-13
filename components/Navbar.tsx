@@ -7,9 +7,7 @@ function Navbar(){
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid navbar-content">
             <Link className="navbar-brand" href="#">
-              <div className="navbar-wrapper">
-                <Image className="navbar-img" alt="Neulancers logo" src={'/assets/images/neulancers-logo.svg'} fill/>
-              </div>
+                <Image className="navbar-img" alt="Neulancers logo" src={'/assets/images/neulancers-logo.svg'} height="60" width="60"/>
             </Link>
             <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
