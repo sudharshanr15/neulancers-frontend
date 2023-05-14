@@ -15,41 +15,47 @@ export default function about(){
                 </div>
             </section>
 
-            <div className="top-reasons my-container">
+            <section className="top-reasons my-container">
                 <div className="top-reasons-head">
                     <p className='top-reasons-tittle'>Top <span className='fw-semibold'>Reasons</span></p>
-                    <p className='text-muted px-2'>Lorrem ipsum is a simple dummy text to define you</p>
+                    <p className='top-reasons-text px-2'>Lorrem ipsum is a simple dummy text to define you</p>
                 </div>
-                <div className="top-reasons-grp">
-                    <div className="top-reasons-item">
-                        <div className="top-reasons-icon-wrapper">
-                            <Image className="top-reasons-icon" src={'/assets/icons/lowcost.png'} alt='low cost' fill/>
+                <div className="top-reasons-grp-wrapper">
+                    <div className="top-reasons-grp row">
+                        <div className="top-reasons-item col-4">
+                            <div className="item-container">
+                                <div className="top-reasons-icon-wrapper">
+                                    <Image className="top-reasons-icon" src={'/assets/icons/lowcost.png'} alt='low cost' fill/>
+                                </div>
+                                <div className="top-reasons-text">Affordable Price</div>
+                            </div>
                         </div>
-                        <div className="top-reasons-text">Affordable Price</div>
-                    </div>
-                    <div className="top-reasons-center-line"></div>
-                    <div className="top-reasons-item">
-                        <div className="top-reasons-icon-wrapper">
-                            <Image className="top-reasons-icon" src={'/assets/icons/pencil.png'} alt='pencil' fill/>
+                        <div className="top-reasons-item col-4">
+                            <div className="item-container">
+                                <div className="top-reasons-icon-wrapper">
+                                    <Image className="top-reasons-icon" src={'/assets/icons/pencil.png'} alt='pencil' fill/>
+                                </div>
+                                <div className="top-reasons-text">Highly Skilled</div>
+                            </div>
                         </div>
-                        <div className="top-reasons-text">Highly Skilled</div>
-                    </div>
-                    <div className="top-reasons-center-line"></div>
-                    <div className="top-reasons-item">
-                        <div className="top-reasons-icon-wrapper">
-                            <Image className="top-reasons-icon" src={'/assets/icons/notepad.png'} alt='notepad' fill/>
+                        <div className="top-reasons-item col-4">
+                            <div className="item-container">
+                                <div className="top-reasons-icon-wrapper">
+                                    <Image className="top-reasons-icon" src={'/assets/icons/notepad.png'} alt='notepad' fill/>
+                                </div>
+                                <div className="top-reasons-text">Result Oriented</div>
+                            </div>
                         </div>
-                        <div className="top-reasons-text">Result Oriented</div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="my-container help-msg-container">
+            <section className="my-container help-msg-container">
                 <div className="row g-0">
                     <div className="col-12 col-lg-6">
-                        <div className="help-msg-head">
+                        <p className="help-msg-head">
                             We are here to help the customers to get their success.
-                        </div>
+                        </p>
                     </div>
                     <div className="col">
                         <div className="help-msg-item">
@@ -72,59 +78,61 @@ export default function about(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="our-coders-container my-container">
-                <div className="row">
-                    <div className="col-12 col-lg-6">
-                        <div className="our-coders-img-grp">
-                            <div className="our-coders-img-col">
-                                <div className="our-coders-img-wrapper">
-                                    <Image className='our-coders-img' src={'/assets/images/coder1.png'} alt='coders img' fill />
+            <section className="our-coders-container">
+                <div className="my-container">
+                    <div className="row">
+                        <div className="col-12 col-lg-6">
+                            <div className="our-coders-img-grp">
+                                <div className="our-coders-img-col">
+                                    <div className="our-coders-img-wrapper">
+                                        <Image className='our-coders-img' src={'/assets/images/coder1.png'} alt='coders img' width="100" height="100" unoptimized />
+                                    </div>
+                                    <div className="our-coders-img-wrapper">
+                                        <Image className='our-coders-img' src={'/assets/images/coder3.png'} alt='coders img' width="100" height="100" unoptimized />
+                                    </div>
                                 </div>
-                                <div className="our-coders-img-wrapper">
-                                    <Image className='our-coders-img' src={'/assets/images/coder3.png'} alt='coders img' fill />
-                                </div>
-                            </div>
-                            <div className="our-coders-img-col">
-                                <div className="our-coders-img-wrapper">
-                                    <Image className='our-coders-img' src={'/assets/images/coder2.png'} alt='coders img' fill />
-                                </div>
-                                <div className="our-coders-img-wrapper">
-                                    <Image className='our-coders-img' src={'/assets/images/coder4.png'} alt='coders img' fill />
+                                <div className="our-coders-img-col">
+                                    <div className="our-coders-img-wrapper">
+                                        <Image className='our-coders-img' src={'/assets/images/coder2.png'} alt='coders img' width="100" height="100" unoptimized />
+                                    </div>
+                                    <div className="our-coders-img-wrapper">
+                                        <Image className='our-coders-img' src={'/assets/images/coder4.png'} alt='coders img' width="100" height="100" unoptimized />
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col">
-                        <div className="our-coders-content-grp">
-                            <div className="our-coders-title">
-                                High <span className='fw-semibold'>skilled</span> coders at Your Service
-                            </div>
-                            <div className="our-coders-text-grp">
-                                <div className="our-coders-check">
-                                    <i className="bi bi-check-lg"></i>
+                        <div className="col">
+                            <div className="our-coders-content-grp">
+                                <div className="our-coders-title">
+                                    High <span className='fw-semibold'>skilled</span> coders at Your Service
                                 </div>
-                                <div className="our-coders-text">
-                                    We share common trends and strategies for improving your rental income and making sure you stay in high demand of service.
+                                <div className="our-coders-text-grp">
+                                    <div className="our-coders-check">
+                                        <i className="bi bi-check"></i>
+                                    </div>
+                                    <div className="our-coders-text">
+                                        We share common trends and strategies for improving your rental income and making sure you stay in high demand of service.
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="our-coders-text-grp">
-                                <div className="our-coders-check">
-                                    <i className="bi bi-check-lg"></i>                               </div>
-                                <div className="our-coders-text">
-                                    With lots of unique blocks, you can easily build a page without coding. Build your next landing page. With lots of unique blocks, you can easily build a page without coding any other page.
+                                <div className="our-coders-text-grp">
+                                    <div className="our-coders-check">
+                                        <i className="bi bi-check"></i>                               </div>
+                                    <div className="our-coders-text">
+                                        With lots of unique blocks, you can easily build a page without coding. Build your next landing page. With lots of unique blocks, you can easily build a page without coding any other page.
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="our-team my-container">
+            <section className="our-team my-container">
                 <div className="our-team-header">
                     <div className="our-team-tittle">Meet Our <span className='fw-semibold'>Team</span></div>
-                    <div className="our-team-subtext text-muted">Lorrem ipsum is a dummy text to define you</div>
+                    <div className="our-team-subtext">Lorrem ipsum is a dummy text to define you</div>
                 </div>
 
                 <div className="our-team-grp">
@@ -150,9 +158,9 @@ export default function about(){
                         <div className="our-team-role text-muted">Founder, CEO</div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="our-vision my-container">
+            <section className="our-vision my-container">
                 <div className="our-vision-grp">
                     <div className="our-vision-img-wrapper">
                         <Image className="our-vision-img" src={'/assets/images/bullseye.png'} alt='bullseye' fill />
@@ -160,9 +168,9 @@ export default function about(){
                     <div className="our-vision-tittle">Vision</div>
                 </div>
                     <div className="our-vision-text">To be the world's best and most <br className='d-none d-lg-inline'/> trusted Software Development <br className='d-none d-lg-inline'/> company</div>
-            </div>
+            </section>
 
-            <div className="our-mission my-container">
+            <section className="our-mission my-container">
                 <div className="our-mission-grp">
                     <div className="our-mission-img-wrapper">
                         <Image className="our-mission-img" src={'/assets/images/maninhill.png'} alt='img' fill/>
@@ -170,7 +178,7 @@ export default function about(){
                     <div className="our-mission-tittle">Mission</div>
                     <div className="our-mission-text">To be the world's best and most trusted Software Development company</div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

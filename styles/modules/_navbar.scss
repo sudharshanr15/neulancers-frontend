@@ -6,9 +6,12 @@
         width: 100%;
     }
 
-    & + section, & + div{
-        padding-top: 100px;
+    @include lg{
+        & + section, & + div{
+            padding-top: 100px;
+        }
     }
+    
     .navbar-content{
         @extend .my-container;
         padding: 0 !important;
