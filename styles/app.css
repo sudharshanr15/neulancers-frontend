@@ -1000,7 +1000,7 @@
       flex-direction: column;
       justify-content: center; } }
   .wedo-hero .wedo-content .wedo-body .wedo-hero-title {
-    font-size: 1.6rem; }
+    font-size: 2.6rem; }
     @media (min-width: 992px) {
       .wedo-hero .wedo-content .wedo-body .wedo-hero-title {
         font-size: 3.4rem; } }
@@ -1019,30 +1019,46 @@
 
 .we-offer-container .we-offer-header {
   text-align: center;
-  font-family: 'Open Sans'; }
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 45.46px; }
   .we-offer-container .we-offer-header .we-offer-header-tittle {
-    font-size: 1.8rem; }
-    @media (min-width: 992px) {
-      .we-offer-container .we-offer-header .we-offer-header-tittle {
-        padding-top: 4rem;
-        font-size: 2.4rem; } }
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55.46px;
+    line-height: 66px; }
   .we-offer-container .we-offer-header .we-offer-header-text {
-    margin-top: 1.4rem; }
+    margin-top: 1.4rem;
+    font-size: 24.46px; }
     @media (min-width: 992px) {
       .we-offer-container .we-offer-header .we-offer-header-text {
-        font-size: 1.1rem;
-        width: 40%;
-        margin: auto;
-        margin-top: 2rem; } }
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28.46px;
+        line-height: 48px;
+        width: 25CM;
+        text-align: center;
+        margin-left: 18%;
+        letter-spacing: 0.005em; } }
 .we-offer-container .we-offer-grp .we-offer-grp-head {
   margin-top: 1.8rem;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   font-family: 'Open Sans'; }
   @media (min-width: 992px) {
     .we-offer-container .we-offer-grp .we-offer-grp-head {
       font-size: 2.4rem;
-      margin: 2.2rem 0; } }
+      margin: 5rem 0;
+      font-family: 'Source Sans Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 55.0692px;
+      line-height: 152%;
+      text-align: center;
+      letter-spacing: 0.0015em; } }
 @media (min-width: 992px) {
   .we-offer-container .we-offer-grp .we-offer-card-grp {
     display: flex;
@@ -1054,11 +1070,14 @@
   padding: 1.8rem 0;
   display: flex;
   align-items: flex-start;
-  gap: 1rem; }
+  gap: 1rem;
+  background: #F8F7F7; }
   @media (min-width: 992px) {
     .we-offer-container .we-offer-grp .we-offer-card-grp .we-offer-card {
       width: 34%;
-      padding: 3rem 0; } }
+      padding: 3rem 0;
+      background: #F8F7F7;
+      border-radius: 4.71642px; } }
   .we-offer-container .we-offer-grp .we-offer-card-grp .we-offer-card .we-offer-card-count {
     font-family: 'Open Sans';
     font-style: normal;
@@ -1096,30 +1115,59 @@
 
 .sp .sp-head {
   text-align: center;
-  font-size: 1.6rem; }
+  font-size: 2.6rem; }
   @media (min-width: 992px) {
     .sp .sp-head {
-      font-size: 2.4rem; } }
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 82px;
+      color: #232323; } }
 .sp .sp-text {
   margin-top: 1.4rem;
-  text-align: center; }
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px; }
   @media (min-width: 992px) {
     .sp .sp-text {
-      width: 40%;
-      margin: auto;
-      margin-top: 1.8rem; } }
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 209%;
+      width: 940px;
+      text-align: center;
+      letter-spacing: 0.0015em;
+      margin-left: 18%;
+      color: #232323; } }
 
 .hw .hw-head {
-  font-size: 1.6rem;
-  font-weight: 500; }
+  font-size: 2.6rem;
+  font-weight: 500;
+  text-align: center; }
   @media (min-width: 992px) {
     .hw .hw-head {
-      font-size: 2.4rem; } }
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 82px; } }
 .hw .hw-text {
-  margin-top: 1.4rem; }
+  margin-top: 1.4rem;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center; }
   @media (min-width: 992px) {
     .hw .hw-text {
-      width: 40%; } }
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 40px;
+      width: 909px;
+      letter-spacing: 0.0015em;
+      color: #000000; } }
 
 @media (min-width: 992px) {
   .we-m .we-m-grp {
@@ -1147,20 +1195,33 @@
     width: 44%;
     font-family: 'Open Sans';
     padding: 1rem 0;
-    border-bottom: 1px solid; }
+    border-bottom: 1px solid;
+    margin-bottom: 6rem; }
     .we-m .we-m-grp .we-m-side-grp .we-m-item .we-m-item-head {
       font-weight: 600;
-      font-size: 1.4rem; }
+      font-size: 26px; }
       @media (min-width: 992px) {
         .we-m .we-m-grp .we-m-side-grp .we-m-item .we-m-item-head {
-          font-size: 1.9rem;
-          width: 80%; } }
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 46px;
+          line-height: 58px;
+          /* or 126% */
+          letter-spacing: 0.0025em;
+          color: #000000; } }
     .we-m .we-m-grp .we-m-side-grp .we-m-item .we-m-item-text {
-      margin-top: 1rem; }
+      margin-top: 2rem; }
 
 .why-choose-container .why-choose-header .why-choose-tittle {
-  font-size: 1.8rem;
-  text-align: center; }
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55.0692px;
+  line-height: 152%;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  color: #000000; }
 .why-choose-container .why-choose-header .why-choose-txt {
   text-align: center; }
 .why-choose-container .why-choose-wrapper {
@@ -1174,7 +1235,7 @@
       gap: 2rem; } }
   .why-choose-container .why-choose-wrapper .why-choose-img-wrapper {
     position: relative;
-    height: 350px; }
+    height: 450px; }
     @media (min-width: 992px) {
       .why-choose-container .why-choose-wrapper .why-choose-img-wrapper {
         height: 600px;
