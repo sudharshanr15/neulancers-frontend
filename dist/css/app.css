@@ -1318,7 +1318,14 @@
   }
 }
 .wedo-hero .wedo-content .wedo-body .wedo-hero-title {
-  font-size: 2.6rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 43px;
+  /* or 178% */
+  letter-spacing: 0.0115em;
+  color: #000000;
 }
 @media (min-width: 992px) {
   .wedo-hero .wedo-content .wedo-body .wedo-hero-title {
@@ -1327,6 +1334,11 @@
 }
 .wedo-hero .wedo-content .wedo-body .wedo-sub-hero-txt {
   margin-top: 1rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 152%;
 }
 .wedo-hero .wedo-content .wedo-body .wedo-contact-btn {
   margin-top: 1.4rem;
@@ -1352,13 +1364,29 @@
 .we-offer-container .we-offer-header .we-offer-header-tittle {
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 400;
-  font-size: 55.46px;
-  line-height: 66px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 43px;
+  /* or 178% */
+  letter-spacing: 0.0115em;
+  color: #000000;
+}
+@media (min-width: 992px) {
+  .we-offer-container .we-offer-header .we-offer-header-tittle {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55.46px;
+    line-height: 66px;
+  }
 }
 .we-offer-container .we-offer-header .we-offer-header-text {
   margin-top: 1.4rem;
-  font-size: 24.46px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
 }
 @media (min-width: 992px) {
   .we-offer-container .we-offer-header .we-offer-header-text {
@@ -1426,9 +1454,10 @@
 }
 .we-offer-container .we-offer-grp .we-offer-card-grp .we-offer-card .we-offer-card-content .we-offer-card-tittle {
   font-family: "Poppins";
-  font-weight: 600;
-  font-size: 1.2rem;
-  width: 60%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.7778px;
+  line-height: 130%;
 }
 @media (min-width: 992px) {
   .we-offer-container .we-offer-grp .we-offer-card-grp .we-offer-card .we-offer-card-content .we-offer-card-tittle {
@@ -1436,7 +1465,11 @@
   }
 }
 .we-offer-container .we-offer-grp .we-offer-card-grp .we-offer-card .we-offer-card-content .we-offer-card-text {
-  color: #444444;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.6222px;
+  line-height: 21px;
 }
 @media (min-width: 992px) {
   .we-offer-container .we-offer-grp .we-offer-card-grp .we-offer-card .we-offer-card-content .we-offer-card-text {
@@ -1464,8 +1497,12 @@
 }
 
 .sp .sp-head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
   text-align: center;
-  font-size: 2.6rem;
 }
 @media (min-width: 992px) {
   .sp .sp-head {
@@ -1480,8 +1517,9 @@
 .sp .sp-text {
   margin-top: 1.4rem;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
+  text-align: center;
 }
 @media (min-width: 992px) {
   .sp .sp-text {
@@ -1499,9 +1537,12 @@
 }
 
 .hw .hw-head {
-  font-size: 2.6rem;
+  font-family: "Poppins";
+  font-style: normal;
   font-weight: 500;
-  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: left;
 }
 @media (min-width: 992px) {
   .hw .hw-head {
@@ -1513,10 +1554,11 @@
   }
 }
 .hw .hw-text {
-  margin-top: 1.4rem;
-  font-weight: 300;
-  font-size: 20px;
-  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
 }
 @media (min-width: 992px) {
   .hw .hw-text {
@@ -1571,8 +1613,11 @@
   margin-bottom: 6rem;
 }
 .we-m .we-m-grp .we-m-side-grp .we-m-item .we-m-item-head {
+  font-family: "Open Sans";
+  font-style: normal;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 25px;
+  line-height: 31px;
 }
 @media (min-width: 992px) {
   .we-m .we-m-grp .we-m-side-grp .we-m-item .we-m-item-head {
@@ -1673,8 +1718,19 @@
      object-fit: contain;
 }
 .why-choose-container .why-choose-wrapper .why-choose-card-grp .why-choose-card .why-choose-card-title {
-  font-size: 1.2rem;
+  font-family: "Poppins";
+  font-style: normal;
   font-weight: 600;
+  font-size: 24px;
+  line-height: 152%;
+  /* or 36px */
+  letter-spacing: 0.0015em;
+}
+@media (min-width: 992px) {
+  .why-choose-container .why-choose-wrapper .why-choose-card-grp .why-choose-card .why-choose-card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
 }
 .why-choose-container .why-choose-wrapper .why-choose-card-grp .why-choose-card .why-choose-card-txt {
   margin-top: 0.8rem;
