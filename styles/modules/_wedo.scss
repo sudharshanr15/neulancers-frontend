@@ -63,13 +63,28 @@
                 justify-content: center;
             }
             .wedo-hero-title{
-                font-size: 2.6rem;
+                
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 29px;
+                line-height: 43px;
+                /* or 178% */
+
+                letter-spacing: 0.0115em;
+
+                color: #000000;
                 @include lg{
                     font-size: 3.4rem;
                 }
             }
             .wedo-sub-hero-txt{
                 margin-top: 1rem;
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 152%;
             }
             .wedo-contact-btn{
                 margin-top: 1.4rem;
@@ -105,17 +120,33 @@
           
                
                
-                
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 43px;
+            /* or 178% */
+            
+            letter-spacing: 0.0115em;
+            
+            color: #000000;
+            @include lg{
                 font-family: 'Open Sans';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 55.46px;
                 line-height: 66px;
+            }
             
         }
         .we-offer-header-text{
             margin-top: 1.4rem;
-            font-size: 24.46px;
+            
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 27px;
             @include lg{
                 
                 font-family: 'Open Sans';
@@ -190,16 +221,21 @@
                 .we-offer-card-content{
                     .we-offer-card-tittle{
                         font-family: 'Poppins';
-                        font-weight: 600;
-                        font-size: 1.2rem;
-                        width: 60%;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 15.7778px;
+                        line-height: 130%;
 
                         @include lg{
                             width: 40%;
                         }
                     }
                     .we-offer-card-text{
-                        color: #444444;
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12.6222px;
+                        line-height: 21px;
                         @include lg{
                             width: 80%;
                         }
@@ -231,9 +267,12 @@
 
 .sp{
     .sp-head{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
         text-align: center;
-        font-size: 2.6rem;
-
         @include lg{
             font-family: 'Poppins';
             font-style: normal;
@@ -250,8 +289,9 @@
     .sp-text{
         margin-top: 1.4rem;
         text-align: center;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 20px;
+        text-align: center;
         @include lg{
             font-family: 'Open Sans';
             font-style: normal;
@@ -270,8 +310,12 @@
 
 .hw{
     .hw-head{
-        font-size: 2.6rem;
+        font-family: 'Poppins';
+        font-style: normal;
         font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: left;
         @include lg{
             font-family: 'Poppins';
             font-style: normal;
@@ -282,9 +326,11 @@
     }
 
     .hw-text{
-        margin-top: 1.4rem;
-        font-weight: 300;
-        font-size: 20px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
         @include lg{
             font-family: 'Open Sans';
             font-style: normal;
@@ -339,8 +385,11 @@
                 margin-bottom: 6rem;
 
                 .we-m-item-head{
+                    font-family: 'Open Sans';
+                    font-style: normal;
                     font-weight: 600;
-                    font-size: 26px;
+                    font-size: 25px;
+                    line-height: 31px;
 
                     @include lg{
                         font-family: 'Open Sans';
@@ -450,8 +499,18 @@
                     }
                 }
                 .why-choose-card-title{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 152%;
+                    /* or 36px */
+
+                    letter-spacing: 0.0015em;
+                    @include lg{
                     font-size: 1.2rem;
                     font-weight: 600;
+                    }
                 }
                 .why-choose-card-txt{
                     margin-top: .8rem;
