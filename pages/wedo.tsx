@@ -13,6 +13,7 @@ export default function wedo(){
                                 <div className="wedo-rocket-wrapper">
                                     <Image className="wedo-rocket" src={'/assets/icons/paperplane.png'} alt='' fill />
                                 </div>
+                                
                             </div>
                         </div>
                         <div className="col">
