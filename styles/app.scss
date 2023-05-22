@@ -14,7 +14,11 @@
 @import "modules/about";
 @import "modules/wedo";
 @import "modules/rd";
+@import "modules/enterprise";
 
+html *{
+    font-family: 'Poppins', sans-serif;
+}
 
 
 @mixin my-container($padding-x) {
@@ -69,4 +73,9 @@ section{
     @include lg{
         margin-bottom: 100px;
     }
+}
+
+.img-contain{
+    width: 100%;
+    height: auto;
 }
