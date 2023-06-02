@@ -1,0 +1,102 @@
+.sna-hero-section{
+    height: 100vh;
+    
+    .hero-title{
+        font-weight: 600;
+
+        @include lg{
+            font-size: 58.166px;
+            line-height: 78px;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .hero-text{
+        color: rgba(35, 35, 35, 0.7);
+
+        @include lg{
+            font-size: 20px;
+            line-height: 39px;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .hero-dev-list{
+        display: flex;
+
+        .hero-dev-item{
+            display: inline-block;
+            font-weight: 500;
+            border: 1px dashed black;
+            margin-inline-end: 1rem;
+            padding: 0.5rem 1.5rem;
+            border-radius: 5rem;
+
+            @include lg{
+                font-size: 24px;
+            }
+        }
+    }
+
+    .img-wrapper{
+        max-width: 598px;
+        margin-inline: auto;
+    }
+}
+
+.sna-details-section{
+    .details-container{
+        @include lg{
+            margin-bottom: 200px;
+        }
+
+        &:last-child{
+            margin: 0;
+        }
+
+        .details-title{
+            @include lg{
+                margin-bottom: 3rem;
+            }
+
+            .details-count{
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 120px;
+                height: 120px;
+                font-weight: 600;
+                aspect-ratio: 1/1;
+                border-radius: 50%;
+                border: 1px dashed black;
+                color: rgba(0, 0, 0, 0.4);
+                margin-inline-end: 1.5rem;
+
+                @include lg{
+                    font-size: 73.5935px;
+                }
+            }
+
+            .details-name{
+                display: inline;
+                font-weight: 500;
+
+                @include lg{
+                    font-size: 68.7179px;
+                }
+            }
+        }
+
+        .details-text{
+            @include lg{
+                font-size: 22px;
+                line-height: 52px;    
+            }
+        }
+
+    }
+    
+    &.details-technology{
+        background: #ECECEC;
+    }
+}

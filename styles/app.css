@@ -2051,6 +2051,74 @@
     .enterprise-unique-section .content-container .container-img__2 {
       max-width: 520px; }
 
+.sna-hero-section {
+  height: 100vh; }
+  .sna-hero-section .hero-title {
+    font-weight: 600; }
+    @media (min-width: 992px) {
+      .sna-hero-section .hero-title {
+        font-size: 58.166px;
+        line-height: 78px;
+        margin-bottom: 3rem; } }
+  .sna-hero-section .hero-text {
+    color: rgba(35, 35, 35, 0.7); }
+    @media (min-width: 992px) {
+      .sna-hero-section .hero-text {
+        font-size: 20px;
+        line-height: 39px;
+        margin-bottom: 3rem; } }
+  .sna-hero-section .hero-dev-list {
+    display: flex; }
+    .sna-hero-section .hero-dev-list .hero-dev-item {
+      display: inline-block;
+      font-weight: 500;
+      border: 1px dashed black;
+      margin-inline-end: 1rem;
+      padding: 0.5rem 1.5rem;
+      border-radius: 5rem; }
+      @media (min-width: 992px) {
+        .sna-hero-section .hero-dev-list .hero-dev-item {
+          font-size: 24px; } }
+  .sna-hero-section .img-wrapper {
+    max-width: 598px;
+    margin-inline: auto; }
+
+@media (min-width: 992px) {
+  .sna-details-section .details-container {
+    margin-bottom: 200px; } }
+.sna-details-section .details-container:last-child {
+  margin: 0; }
+@media (min-width: 992px) {
+  .sna-details-section .details-container .details-title {
+    margin-bottom: 3rem; } }
+.sna-details-section .details-container .details-title .details-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  font-weight: 600;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 1px dashed black;
+  color: rgba(0, 0, 0, 0.4);
+  margin-inline-end: 1.5rem; }
+  @media (min-width: 992px) {
+    .sna-details-section .details-container .details-title .details-count {
+      font-size: 73.5935px; } }
+.sna-details-section .details-container .details-title .details-name {
+  display: inline;
+  font-weight: 500; }
+  @media (min-width: 992px) {
+    .sna-details-section .details-container .details-title .details-name {
+      font-size: 68.7179px; } }
+@media (min-width: 992px) {
+  .sna-details-section .details-container .details-text {
+    font-size: 22px;
+    line-height: 52px; } }
+.sna-details-section.details-technology {
+  background: #ECECEC; }
+
 html * {
   font-family: 'Poppins', sans-serif; }
 
