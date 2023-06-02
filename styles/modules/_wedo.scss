@@ -75,7 +75,16 @@
 
                 color: #000000;
                 @include lg{
-                    font-size: 3.4rem;
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 52.9999px;
+                    line-height: 80px;
+                    /* or 151% */
+
+                    letter-spacing: 0.0115em;
+
+                    color: #000000;
                 }
             }
             .wedo-sub-hero-txt{
@@ -85,6 +94,18 @@
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 152%;
+                @include lg{
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 33px;
+                    /* or 165% */
+
+                    letter-spacing: 0.005em;
+
+                    color: #232323;
+                }
             }
             .wedo-contact-btn{
                 margin-top: 1.4rem;
@@ -122,13 +143,14 @@
                
             font-family: 'Open Sans';
             font-style: normal;
-            font-weight: 700;
-            font-size: 28px;
-            line-height: 43px;
-            /* or 178% */
-            
-            letter-spacing: 0.0115em;
-            
+            font-weight: 500;
+            font-size: 27px;
+            line-height: 36px;
+            /* or 152% */
+
+            text-align: center;
+            letter-spacing: 0.005em;
+
             color: #000000;
             @include lg{
                 font-family: 'Open Sans';
@@ -227,7 +249,16 @@
                         line-height: 130%;
 
                         @include lg{
-                            width: 40%;
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 23px;
+                            line-height: 31px;
+                            
+                            
+                            letter-spacing: 0.015em;
+                            
+                            color: #000000;
                         }
                     }
                     .we-offer-card-text{
