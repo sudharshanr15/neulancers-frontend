@@ -2,10 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { SectionWrapper } from "../../utils/SectionWrapper";
-import { motion } from "framer-motion";
+import { motion, useMotionValue, useTransform, useMotionValueEvent, useScroll } from "framer-motion";
 import { fadeIn } from "../../utils/motion";
 import { zoomIn } from "../../utils/motion";
 import { textVariant } from "../../utils/motion";
+import { useEffect, useRef, useState } from "react";
 
 const expertise = [
     {
@@ -52,8 +53,10 @@ const ExpertiseItem = ({ image, title, text, link, index }) => {
 };
 
 const Expertise = () => {
+    const wave_container = useRef()
+
     return (
-        <section className="my-container expertise">
+        <section className="my-container expertise" ref={wave_container}>
             <div className="row g-0 justify-content-between">
                 <div className="col-3 col-lg-4">
                     <div className="expertise-side-grp">
