@@ -5,6 +5,7 @@ import { Hero, Expertise, Tech, About } from "../components/home"
 import { motion } from "framer-motion"
 import { fadeIn } from "@/utils/motion"
 import ProposalCard from "@/components/ProposalCard"
+import Projects from "@/components/Projects"
 
 export default function Home(){
   return (
@@ -18,6 +19,7 @@ export default function Home(){
       <About />
       <Expertise />
       <Tech />
+      <Projects />
       <section className="my-container">
         <ProposalCard />
       </section>

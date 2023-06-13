@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import ProposalCard from "@/components/ProposalCard";
+import Projects from "@/components/Projects";
 
 function Enterprise(){
     return (
@@ -169,6 +170,7 @@ function Enterprise(){
                     </div>
                 </div>
             </section>
+            <Projects />
             <section className="my-container">
                 <ProposalCard />
             </section>
