@@ -4,6 +4,7 @@ import { SectionWrapper } from "../utils/SectionWrapper";
 import { Hero, Offers, Features, WhyChoose} from "../components/wedo";
 import { motion } from "framer-motion"
 import { textVariant, fadeIn } from '@/utils/motion';
+import ProposalCard from '@/components/ProposalCard';
 
 function wedo(){
     return(
@@ -23,6 +24,10 @@ function wedo(){
             
             <Features />
             <WhyChoose />
+
+            <section className="my-container">
+                <ProposalCard />
+            </section>
         </>
     )
 }

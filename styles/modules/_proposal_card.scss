@@ -1,0 +1,52 @@
+.proposal-card{
+    padding: 1rem;
+    background-image: url("/assets/images/proposal-card-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+
+    @include md{
+        padding: 50px;
+    }
+    
+    @include lg{
+        padding: 70px;
+    }
+
+    .content-container{
+        width: 65%;
+    }
+
+    .content-title{
+        color: white;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 1rem;
+
+        @include sm{
+            font-size: 32px;
+            line-height: 40px;
+        }
+
+        @include xl{
+            margin-bottom: 2rem;
+            font-size: 48.4444px;
+            line-height: 70px;    
+        }
+    }
+
+    .card-btn{
+        padding: 0.5rem;
+        min-width: 130px;
+        color: white;
+        font-weight: 600;
+        background: #7428DC;
+        font-size: 14px;
+        
+        @include xl{
+            font-size: 2rem;
+            width: 300px;
+        }
+    }
+}

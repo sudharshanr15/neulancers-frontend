@@ -4,6 +4,7 @@ import Link from "next/link"
 import { Hero, Expertise, Tech, About } from "../components/home"
 import { motion } from "framer-motion"
 import { fadeIn } from "@/utils/motion"
+import ProposalCard from "@/components/ProposalCard"
 
 export default function Home(){
   return (
@@ -17,6 +18,9 @@ export default function Home(){
       <About />
       <Expertise />
       <Tech />
+      <section className="my-container">
+        <ProposalCard />
+      </section>
     </>
   )
 }

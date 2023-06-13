@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import ProposalCard from "@/components/ProposalCard";
 
 function Enterprise(){
     return (
@@ -167,6 +168,9 @@ function Enterprise(){
                         </div>
                     </div>
                 </div>
+            </section>
+            <section className="my-container">
+                <ProposalCard />
             </section>
         </>
     )

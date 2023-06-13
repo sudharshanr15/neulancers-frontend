@@ -1,5 +1,5 @@
+import ProposalCard from '@/components/ProposalCard'
 import Image from 'next/image'
-import Link from "next/link"
 
 export default function about(){
     return(
@@ -178,6 +178,10 @@ export default function about(){
                     <div className="our-mission-tittle">Mission</div>
                     <div className="our-mission-text">To be the world's best and most trusted Software Development company</div>
                 </div>
+            </section>
+            
+            <section className="my-container">
+                <ProposalCard />
             </section>
         </>
     )

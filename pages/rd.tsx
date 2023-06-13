@@ -1,3 +1,4 @@
+import ProposalCard from '@/components/ProposalCard'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -176,6 +177,10 @@ export default function rd(){
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section className="my-container">
+                <ProposalCard />
             </section>
         </>
     )

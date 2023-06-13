@@ -2711,6 +2711,47 @@
       width: 100%;
       background-image: url("/assets/images/last.png"); } }
 
+.proposal-card {
+  padding: 1rem;
+  background-image: url("/assets/images/proposal-card-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right; }
+  @media (min-width: 768px) {
+    .proposal-card {
+      padding: 50px; } }
+  @media (min-width: 992px) {
+    .proposal-card {
+      padding: 70px; } }
+  .proposal-card .content-container {
+    width: 65%; }
+  .proposal-card .content-title {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 1rem; }
+    @media (min-width: 576px) {
+      .proposal-card .content-title {
+        font-size: 32px;
+        line-height: 40px; } }
+    @media (min-width: 1200px) {
+      .proposal-card .content-title {
+        margin-bottom: 2rem;
+        font-size: 48.4444px;
+        line-height: 70px; } }
+  .proposal-card .card-btn {
+    padding: 0.5rem;
+    min-width: 130px;
+    color: white;
+    font-weight: 600;
+    background: #7428DC;
+    font-size: 14px; }
+    @media (min-width: 1200px) {
+      .proposal-card .card-btn {
+        font-size: 2rem;
+        width: 300px; } }
+
 html * {
   font-family: 'Poppins', sans-serif; }
 
