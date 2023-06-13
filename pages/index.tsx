@@ -12,8 +12,8 @@ export default function Home(){
       <motion.section variants={fadeIn("", "", 0.1, 1)} initial="hidden" whileInView="show" className="home-intro my-container">
         <h2 className="home-intro-title">We are neulancers</h2>
         <p className="home-intro-text">We are an agency focused on <span className="text-primary">web</span> developement providing best solution to grow up your business is the prime motto we put into our work everyday</p>
+        <hr className="mt-5 d-none d-lg-block" />
       </motion.section>
-      <hr className="mt-5 d-none d-lg-block" />
       <About />
       <Expertise />
       <Tech />

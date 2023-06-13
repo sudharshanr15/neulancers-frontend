@@ -8,9 +8,13 @@
         padding: 1rem;
         border-radius: 8px;
         overflow: hidden;
-        height: 480px;
+        
+        @include md{
+            height: 240px;
+        }
 
         @include lg{
+            height: 480px;
             padding: 1.6rem;
         }
 
@@ -28,16 +32,13 @@
             text-align: center;
             color: white;
             
+            @include md{
+                font-size: 2rem;
+            }
 
             @include lg{
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
                 font-size: 54px;
                 line-height: 152%;
-                
-
-                text-align: center;
                 letter-spacing: 0.0015em;
 
                 color: #FFFFFF;
@@ -210,6 +211,10 @@
     .help-msg-item{
         text-align: center;
         margin-bottom: 2rem;
+
+        @include lg{
+            text-align: start;
+        }
 
         .cricle-span{
             text-align: start;

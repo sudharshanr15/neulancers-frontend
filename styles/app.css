@@ -360,7 +360,8 @@
       .home-intro .home-intro-title {
         font-size: 20px;
         line-height: 139%;
-        letter-spacing: 0.45em; } }
+        letter-spacing: 0.45em;
+        margin-bottom: 40px; } }
   .home-intro .home-intro-text {
     text-align: center;
     margin: 0 auto;
@@ -374,9 +375,6 @@
         font-size: 33px;
         line-height: 182%; } }
 
-@media (min-width: 992px) {
-  .home-about {
-    padding-top: 100px !important; } }
 .home-about .home-about-title {
   font-family: 'Open Sans';
   font-weight: 600;
@@ -620,10 +618,13 @@
   flex-direction: column;
   padding: 1rem;
   border-radius: 8px;
-  overflow: hidden;
-  height: 480px; }
+  overflow: hidden; }
+  @media (min-width: 768px) {
+    .about-company-hero .about-company-wrapper {
+      height: 240px; } }
   @media (min-width: 992px) {
     .about-company-hero .about-company-wrapper {
+      height: 480px;
       padding: 1.6rem; } }
   .about-company-hero .about-company-wrapper .about-company-header {
     color: white;
@@ -637,14 +638,13 @@
     margin-top: 1rem;
     text-align: center;
     color: white; }
+    @media (min-width: 768px) {
+      .about-company-hero .about-company-wrapper .about-company-text {
+        font-size: 2rem; } }
     @media (min-width: 992px) {
       .about-company-hero .about-company-wrapper .about-company-text {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
         font-size: 54px;
         line-height: 152%;
-        text-align: center;
         letter-spacing: 0.0015em;
         color: #FFFFFF; } }
   .about-company-hero .about-company-wrapper .about-company-img-wrapper .about-company-img {
@@ -769,6 +769,9 @@
 .help-msg-container .help-msg-item {
   text-align: center;
   margin-bottom: 2rem; }
+  @media (min-width: 992px) {
+    .help-msg-container .help-msg-item {
+      text-align: start; } }
   .help-msg-container .help-msg-item .cricle-span {
     text-align: start;
     width: 24px;

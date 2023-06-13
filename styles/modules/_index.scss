@@ -143,6 +143,7 @@
             font-size: 20px;
             line-height: 139%;
             letter-spacing: 0.45em;
+            margin-bottom: 40px;
         }
     }
     .home-intro-text{
@@ -162,9 +163,6 @@
 }
 
 .home-about{
-    @include lg{
-        padding-top: 100px !important;
-    }
 
     .home-about-title{
         font-family: 'Open Sans';

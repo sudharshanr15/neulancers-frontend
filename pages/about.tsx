@@ -82,7 +82,7 @@ export default function about(){
 
             <section className="our-coders-container">
                 <div className="my-container">
-                    <div className="row">
+                    <div className="row align-items-center">
                         <div className="col-12 col-lg-6">
                             <div className="our-coders-img-grp">
                                 <div className="our-coders-img-col">
