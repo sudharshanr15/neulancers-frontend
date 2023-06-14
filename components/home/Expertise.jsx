@@ -33,7 +33,7 @@ const ExpertiseItem = ({ image, title, text, link, index }) => {
     return (
         <motion.div
             className="expertise-card"
-            variants={fadeIn("left", "spring", index * 0.75, 0.75)}
+            variants={fadeIn("right", "spring", index * 0.75, 0.75)}
         >
             <div className="expertise-card-icon-wrapper">
                 <Image

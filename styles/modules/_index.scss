@@ -22,11 +22,12 @@
         font-size: 30px;
         line-height: 41px;
         letter-spacing: 0.02em;
+        margin-bottom: 1.5rem;
         
         @include lg{
             width: 75%;
-            font-size: 64px;
-            line-height: 136%;
+            font-size: 53px;
+            line-height: 148.5%;
             margin-bottom: 2rem;
         }
     }
@@ -34,7 +35,7 @@
     .hero-text{
         color: #444444;
         font-weight: 300;
-        font-size: 13.2402px;
+        font-size: 14px;
         line-height: 22px;
 
         @include lg{
@@ -135,7 +136,7 @@
         color: #444444;
         text-transform: uppercase;
         font-weight: 500;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
         font-size: 14px;
         letter-spacing: 0.45em;
 
@@ -149,8 +150,7 @@
     .home-intro-text{
         text-align: center;
         margin: 0 auto;
-        padding: 1rem;
-        font-size: 9.5px;
+        font-size: 14px;
         line-height: 182%;
         
         @include lg{
