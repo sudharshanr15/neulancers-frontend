@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { Hero, Expertise, Tech, About } from "../components/home"
+import { Hero, Expertise, Tech, About, Grow } from "../components/home"
 import { motion } from "framer-motion"
 import { fadeIn } from "@/utils/motion"
 import ProposalCard from "@/components/ProposalCard"
@@ -19,6 +19,7 @@ export default function Home(){
       <About />
       <Expertise />
       <Tech />
+      <Grow />
       <Projects />
       <section className="my-container">
         <ProposalCard />
